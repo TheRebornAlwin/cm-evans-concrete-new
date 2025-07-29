@@ -83,7 +83,7 @@ const Home = () => {
     {
       icon: <Shield className="h-8 w-8" />,
       title: 'Superior Quality',
-      description: 'Stronger, longer-lasting products that stand the test of time'
+      description: 'Stronger, longer-lasting products that stand the test of time.'
     },
     {
       icon: <Clock className="h-8 w-8" />,
