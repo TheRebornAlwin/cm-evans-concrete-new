@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ArrowRight } from 'lucide-react';
-import { supabase, type ContactSubmission } from '../lib/supabase';
 
 const Contact = () => {
   useEffect(() => {
@@ -20,29 +19,12 @@ const Contact = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    try {
-      const submission: ContactSubmission = {
-        name: formData.name.trim(),
-        email: formData.email.trim(),
-        message: formData.message.trim()
-      };
-
-      const { error } = await supabase
-        .from('contact_submissions')
-        .insert([submission]);
-
-      if (error) {
-        throw error;
-      }
-
+    // Simulate form submission
+    setTimeout(() => {
       setSubmitStatus('success');
       setFormData({ name: '', email: '', message: '' });
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      setSubmitStatus('error');
-    } finally {
       setIsSubmitting(false);
-    }
+    }, 1000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
