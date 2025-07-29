@@ -80,7 +80,7 @@ const Footer = () => {
             
             {/* Free Quotes */}
             <div className="mt-6">
-              <div className="bg-brand-secondary p-4 rounded-lg">
+              <div className="bg-brand-secondary p-4 rounded-lg text-left">
                 <h4 className="text-sm font-semibold mb-2">Free Quotes Available</h4>
                 <p className="text-gray-300 text-sm">Call us today for immediate, free quotes on all our products.</p>
               </div>
