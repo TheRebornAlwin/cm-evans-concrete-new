@@ -45,37 +45,37 @@ const Home = () => {
       name: 'Concrete Fence Posts',
       price: 'Call for Details',
       description: '8ft and 6ft concrete fence posts. Other sizes made to order.',
-      image: '/assets/concretefenceposts.jpg'
+      image: '/assets/concretefenceposts.jpeg'
     },
     {
       name: 'Concrete Gravel Boards',
       price: 'Call for Details',
       description: '6\' x 1\' Smooth and Rockface, plus 6\' x 6" smooth options available.',
-      image: '/assets/concreterockfacegravelboards.jpeg'
+      image: '/assets/concretegravelboards.jpg'
     },
     {
       name: 'Interlocking (Lego) Blocks',
       price: 'Call for Details',
       description: 'Multiple sizes available from 600x600x600 to 1800x600x600.',
-      image: '/assets/concreteinterlockinglegoblockstwo.jpg'
+      image: '/assets/interlockinglegoblocks.jpg'
     },
     {
       name: 'Coping Stones & Pillar Caps',
       price: 'Call for Details',
       description: 'Various sizes available for professional wall finishing.',
-      image: '/assets/copingstonespillarcaps.jpeg'
+      image: '/assets/copingstonespillarcaps.jpg'
     },
     {
       name: 'Mannok General Purpose Cement',
       price: 'Call for Details',
       description: 'High-quality general purpose cement in 25kg bags.',
-      image: '/assets/cementbagss.jpg'
+      image: '/assets/manokgeneralcement.jpg'
     },
     {
       name: 'Postfast 20kg Rapid Set',
       price: 'Call for Details',
       description: 'Quick-setting concrete mix in convenient 20kg bags.',
-      image: '/assets/postfastbags.jpg'
+      image: '/assets/postfast.jpg'
     }
   ];
 

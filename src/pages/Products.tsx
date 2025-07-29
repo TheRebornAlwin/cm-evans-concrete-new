@@ -10,42 +10,42 @@ const Products = () => {
     {
       name: 'Concrete Fence Posts',
       description: '8ft and 6ft concrete fence posts available. Other sizes can be made to order for specific project requirements.',
-      image: '/assets/concretefenceposts.jpg',
+      image: '/assets/concretefenceposts.jpeg',
       features: ['8ft and 6ft standard sizes', 'Custom sizes to order', 'Reinforced concrete', 'Weather resistant'],
       category: 'Fencing & Posts'
     },
     {
       name: 'Concrete Gravel Boards',
       description: 'Available in 6\' x 1\' Smooth and Rockface finish, plus 6\' x 6" smooth options for complete fencing solutions.',
-      image: '/assets/concreterockfacegravelboards.jpeg',
+      image: '/assets/concretegravelboards.jpg',
       features: ['6\' x 1\' Smooth finish', '6\' x 1\' Rockface finish', '6\' x 6" Smooth option', 'Complete fencing system'],
       category: 'Fencing & Posts'
     },
     {
       name: 'Concrete Interlocking (Lego) Blocks',
       description: 'Versatile interlocking concrete blocks in multiple sizes: 1200x600x600, 600x600x600, 1800x600x600, and 1200x300x600.',
-      image: '/assets/concreteinterlockinglegoblockstwo.jpg',
+      image: '/assets/interlockinglegoblocks.jpg',
       features: ['1200 x 600 x 600mm', '600 x 600 x 600mm', '1800 x 600 x 600mm', '1200 x 300 x 600mm'],
       category: 'Building Blocks'
     },
     {
       name: 'Postfast 20kg Rapid Set',
       description: 'Quick-setting concrete mix in convenient 20kg bags. Perfect for fence post installation and rapid setting applications.',
-      image: '/assets/postfastbags.jpg',
+      image: '/assets/postfast.jpg',
       features: ['20kg bags', 'Rapid setting formula', 'Easy to use', 'Professional strength'],
       category: 'Cement & Mix'
     },
     {
       name: 'Mannok General Purpose Cement 25kg',
       description: 'High-quality Mannok general purpose cement in 25kg bags. Suitable for all standard construction applications.',
-      image: '/assets/cementbagss.jpg',
+      image: '/assets/manokgeneralcement.jpg',
       features: ['25kg bags', 'General purpose use', 'Mannok brand quality', 'Construction grade'],
       category: 'Cement & Mix'
     },
     {
       name: 'Coping Stones & Pillar Caps',
       description: 'Various sizes of coping stones and pillar caps available for professional finishing of walls and boundaries.',
-      image: '/assets/copingstonespillarcaps.jpeg',
+      image: '/assets/copingstonespillarcaps.jpg',
       features: ['Various sizes available', 'Professional finish', 'Weather resistant', 'Custom options'],
       category: 'Finishing'
     }
