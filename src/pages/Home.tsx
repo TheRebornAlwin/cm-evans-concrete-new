@@ -4,11 +4,11 @@ import { Phone, ArrowRight, CheckCircle, Truck, Shield, Clock } from 'lucide-rea
 
 const HeroCarousel = () => {
   const carouselImages = [
-    '/assets/concreterockfacegravelboards.jpeg',
-    '/assets/cementbagss.jpg',
-    '/assets/concreteinterlockinglegoblockstwo.jpg',
-    '/assets/postfastbags.jpg',
-    '/assets/gravelboards.jpg'
+    '/assets/concretegravelboards.jpg',
+    '/assets/manokgeneralcement.jpg',
+    '/assets/copingstonespillarcaps.jpg',
+    '/assets/postfast.jpg',
+    '/assets/whatweoffer.jpg'
   ];
 
   return (
