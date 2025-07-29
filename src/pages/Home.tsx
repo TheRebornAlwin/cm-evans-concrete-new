@@ -202,7 +202,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Professional Products</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
-              Heavy-duty products built for contractors who won't accept anything less than the best
+              Heavy-duty products built for contractors who won't accept anything less than the best.
             </p>
           </div>
           
