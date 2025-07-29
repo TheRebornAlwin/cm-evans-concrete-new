@@ -42,7 +42,7 @@ const About = () => {
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">About C&M Evans Concrete</h1>
             <p className="text-xl text-gray-200 max-w-4xl mx-auto animate-fade-in-up-delay-1">
-              Family-run concrete supplier serving builders and landscapers across South Wales with products that stand the test of time
+              Family-run concrete supplier serving builders and landscapers across South Wales with products that stand the test of time.
             </p>
           </div>
         </div>
