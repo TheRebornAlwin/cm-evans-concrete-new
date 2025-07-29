@@ -83,7 +83,7 @@ const About = () => {
             </div>
             <div>
               <img
-                src="/assets/potentialheroimage.jpg"
+                src="/assets/whoweare.jpg"
                 alt="C&M Evans Concrete - Professional concrete suppliers"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
@@ -124,7 +124,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/assets/concreterockfacegravelboards.jpeg"
+                src="/assets/whatweoffer.jpg"
                 alt="Concrete products - rockface gravel boards and materials"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
