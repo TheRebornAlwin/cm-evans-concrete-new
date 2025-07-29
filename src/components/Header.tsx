@@ -22,7 +22,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/assets/logo.jpg" 
+              src="/assets/logo.jpg"
               alt="C&M Evans Concrete Logo" 
               className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
