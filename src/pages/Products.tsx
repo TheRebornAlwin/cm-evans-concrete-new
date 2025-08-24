@@ -230,9 +230,9 @@ const Products = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="sr-only">Concrete Products Cardiff Bristol Barry - Precast Concrete Blocks South Wales</h1>
-            <h1 className="text-industrial-xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Current Products</h1>
+            <h1 className="text-industrial-xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Concrete Blocks & Precast Products</h1>
             <p className="text-xl text-gray-200 mb-10 max-w-4xl mx-auto font-medium animate-fade-in-up-delay-1">
-              Professional concrete products in stock and ready for collection or delivery across Barry, Cardiff, and South Wales. Free quotes available.
+              Professional concrete blocks, precast concrete, and ready mix concrete in stock. Concrete suppliers serving Barry, Cardiff, Bristol. Free quotes available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up-delay-2">
               <a
@@ -267,9 +267,9 @@ const Products = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="sr-only">Available Concrete Products Barry Cardiff Bristol - Ready Mix Concrete South Wales</h2>
-            <h2 className="text-industrial-lg text-gray-900 mb-6">Available Products</h2>
+            <h2 className="text-industrial-lg text-gray-900 mb-6">Ready Mix Concrete & Concrete Blocks</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
-              Quality concrete products for builders, landscapers, and contractors with free quotes available
+              Professional ready mix concrete, concrete blocks, and precast concrete for builders, landscapers, and contractors. Concrete suppliers with free quotes available.
             </p>
           </div>
           
@@ -335,9 +335,9 @@ const Products = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="sr-only">Custom Concrete Products Barry Cardiff - Made to Order Precast Concrete South Wales</h2>
-            <h2 className="text-industrial-lg text-gray-900 mb-8">Custom Sizes Available</h2>
+            <h2 className="text-industrial-lg text-gray-900 mb-8">Custom Concrete Products Available</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium leading-relaxed">
-              Many products can be made to order in custom sizes for specific project requirements
+              Custom concrete blocks and precast concrete can be made to order. Professional concrete suppliers for specific project requirements.
             </p>
           </div>
           
@@ -416,10 +416,9 @@ const Products = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-brand-primary text-white p-8 rounded-none industrial-shadow">
             <Truck className="h-12 w-12 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-4">Stock & Availability</h3>
+            <h3 className="text-2xl font-bold mb-4">Concrete Products Stock & Availability</h3>
             <p className="text-gray-200 mb-6 leading-relaxed font-medium">
-              Stock levels change regularly. For current availability, pricing, and delivery options, 
-              call directly for immediate answers and free quotes.
+              Ready mix concrete and concrete blocks stock levels change regularly. For current availability of concrete products, pricing, and delivery options, call concrete suppliers directly for immediate answers and free quotes.
             </p>
             <a
               href="tel:07823330492"
@@ -443,10 +442,10 @@ const Products = () => {
       {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-industrial-lg mb-6 text-brand-primary">Need a Quote or Have Questions?</h2>
+          <h2 className="text-industrial-lg mb-6 text-brand-primary">Need Concrete Products Quote?</h2>
          <h3 className="sr-only">Contact Concrete Suppliers Barry Cardiff Bristol for Ready Mix Concrete South Wales</h3>
           <p className="text-xl text-brand-primary mb-10 font-medium max-w-2xl mx-auto">
-            We can provide immediate FREE quotes, check availability, and discuss delivery options for your project.
+            Concrete suppliers can provide immediate FREE quotes on ready mix concrete, concrete blocks, precast concrete. Check availability and discuss concrete delivery options.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
