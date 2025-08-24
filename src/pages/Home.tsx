@@ -128,8 +128,8 @@ const Home = () => {
         <meta name="ICBM" content="51.4007, -3.2919" />
         
         {/* OpenGraph tags */}
-        <meta property="og:title" content="🏗️ Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales" />
-        <meta property="og:description" content="⭐ Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales." />
+        <meta property="og:title" content="Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales" />
+        <meta property="og:description" content="Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmevansconcrete.co.uk/" />
         <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
