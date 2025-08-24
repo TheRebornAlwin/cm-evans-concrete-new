@@ -247,9 +247,9 @@ const About = () => {
       <section className="py-20 bg-brand-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="sr-only">Concrete Suppliers Service Areas Barry Cardiff Bristol South Wales</h2>
-          <h2 className="text-4xl font-bold mb-8">Areas We Serve</h2>
+          <h2 className="text-4xl font-bold mb-8">Concrete Suppliers Service Areas</h2>
           <p className="text-xl text-gray-200 mb-12">
-            Delivering quality concrete products across South Wales
+            Concrete suppliers delivering ready mix concrete, concrete blocks, and precast concrete across South Wales
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
             <div className="p-4 bg-brand-secondary rounded-lg hover:bg-white hover:text-brand-primary transition-colors duration-200">Barry</div>

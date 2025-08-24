@@ -163,9 +163,9 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="sr-only">Contact C&M Evans Concrete Barry Cardiff Bristol - Get Quotes South Wales</h1>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Get In Touch</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Contact Concrete Suppliers</h1>
             <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto animate-fade-in-up-delay-1">
-              Ready to get your project moving? Get immediate answers and FREE quotes by calling directly.
+              Ready to get your project moving? Contact concrete suppliers for immediate answers and FREE quotes on ready mix concrete, concrete blocks, and precast concrete by calling directly.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
