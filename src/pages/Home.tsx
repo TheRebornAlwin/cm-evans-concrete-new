@@ -44,37 +44,37 @@ const Home = () => {
     {
       name: 'Concrete Fence Posts',
       price: 'Call for Details',
-      description: '8ft and 6ft concrete fence posts for residential and commercial projects. Custom sizes available for bespoke concrete solutions.',
+      description: '8ft and 6ft concrete fence posts. Other sizes made to order.',
       image: '/assets/concretefenceposts.jpeg'
     },
     {
       name: 'Concrete Gravel Boards',
       price: 'Call for Details',
-      description: '6\' x 1\' Smooth and Rockface concrete gravel boards, plus 6\' x 6" smooth options. Essential for complete fencing systems.',
+      description: '6\' x 1\' Smooth and Rockface, plus 6\' x 6" smooth options available.',
       image: '/assets/concretegravelboards.jpg'
     },
     {
       name: 'Interlocking (Lego) Blocks',
       price: 'Call for Details',
-      description: 'Versatile interlocking concrete blocks. Multiple sizes from 600x600x600 to 1800x600x600 for construction projects.',
+      description: 'Multiple sizes available from 600x600x600 to 1800x600x600.',
       image: '/assets/interlockinglegoblocks.jpg'
     },
     {
       name: 'Coping Stones & Pillar Caps',
       price: 'Call for Details',
-      description: 'Professional coping stones and pillar caps. Various sizes available for commercial and residential concrete finishing.',
+      description: 'Various sizes available for professional wall finishing.',
       image: '/assets/copingstonespillarcaps.jpg'
     },
     {
       name: 'Mannok General Purpose Cement',
       price: 'Call for Details',
-      description: 'Premium Mannok general purpose cement in 25kg bags. Perfect for ready mix concrete and construction projects.',
+      description: 'High-quality general purpose cement in 25kg bags.',
       image: '/assets/manokgeneralcement.jpg'
     },
     {
       name: 'Postfast 20kg Rapid Set',
       price: 'Call for Details',
-      description: 'Rapid-setting concrete mix in 20kg bags. Ideal for fence post installation and quick concrete repairs.',
+      description: 'Quick-setting concrete mix in convenient 20kg bags.',
       image: '/assets/postfast.jpg'
     }
   ];
@@ -82,23 +82,23 @@ const Home = () => {
   const benefits = [
     {
       icon: <Shield className="h-8 w-8" />,
-      title: 'Professional Concrete Contractors',
-      description: 'Experienced concrete contractors providing superior quality ready mix concrete and concrete products across Barry and Cardiff.'
+      title: 'Superior Quality',
+      description: 'Stronger, longer-lasting products that stand the test of time.'
     },
     {
       icon: <Clock className="h-8 w-8" />,
-      title: 'Ready Mix Concrete Delivery',
-      description: 'Fast concrete delivery services across South Wales. Competitive pricing for residential and commercial concrete projects.'
+      title: 'Competitive Pricing',
+      description: 'Fair pricing without compromising on quality or service'
     },
     {
       icon: <Phone className="h-8 w-8" />,
-      title: 'Custom Concrete Mixes UK',
-      description: 'Bespoke concrete mixes made to specification. Speak directly to us for immediate FREE quotes on custom concrete solutions.'
+      title: 'Speak Directly To Us',
+      description: 'Speak directly to us for immediate, FREE quotes and professional advice'
     },
     {
       icon: <Truck className="h-8 w-8" />,
-      title: 'Concrete Services Near Me', 
-      description: 'Local concrete contractors with delivery and collection services across Barry, Cardiff, Vale of Glamorgan and South Wales.'
+      title: 'Local Service', 
+      description: 'Delivery and collection available across Barry, Cardiff and South Wales'
     }
   ];
 
@@ -116,11 +116,11 @@ const Home = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div className="text-center">
               <h1 className="text-industrial-xl lg:text-7xl leading-none mb-8 animate-fade-in-up mobile-hero-heading md:text-industrial-xl">
-                Ready Mix Concrete Suppliers<br className="md:hidden" /> Barry & Cardiff.{' '}
-                <span className="text-gray-300 block mt-2">Professional Concrete<br className="md:hidden" /> Contractors UK.</span>
+                Concrete Products<br className="md:hidden" /> Built to Last.{' '}
+                <span className="text-gray-300 block mt-2">Quality You Can<br className="md:hidden" /> Trust.</span>
               </h1>
               <p className="text-xl text-gray-200 mb-10 leading-relaxed max-w-2xl mx-auto font-medium animate-fade-in-up-delay-1 mobile-hero-subheading md:text-xl">
-                Concrete delivery services across Barry, Cardiff & South Wales.<br className="md:hidden" /> Ready mix concrete, fence posts, gravel boards & custom<br className="md:hidden" /> concrete mixes. Free quotes available.
+                Based in Barry. Professional-grade concrete<br className="md:hidden" /> products for contractors who demand<br className="md:hidden" /> quality. Free quotes available.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 mb-12 justify-center animate-fade-in-up-delay-2">
@@ -144,15 +144,15 @@ const Home = () => {
               <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-300 font-medium animate-fade-in-up-delay-3">
                 <div className="flex items-center">
                   <CheckCircle className="h-4 w-4 mr-2" />
-                  <span>Concrete Contractors Near Me</span>
+                  <span>Local Barry Business</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-4 w-4 mr-2" />
-                  <span>Ready Mix Concrete Delivery</span>
+                  <span>Free Quotes</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-4 w-4 mr-2" />
-                  <span>Commercial Concrete Services</span>
+                  <span>Professional Grade</span>
                 </div>
               </div>
             </div>
@@ -164,9 +164,9 @@ const Home = () => {
       <section className="py-24 bg-white concrete-texture">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Why Choose Our Concrete Services UK?</h2>
+            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Why Choose C&M Evans?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
-              Professional concrete contractors serving Barry, Cardiff & South Wales. Here's what separates us from other ready mix concrete providers. Free quotes available.
+              We're not your typical supplier. Here's what separates us from the competition. Free quotes available.
             </p>
           </div>
           
@@ -200,9 +200,9 @@ const Home = () => {
       <section className="py-24 bg-gray-50 metal-texture">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Ready Mix Concrete & Building Products</h2>
+            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Professional Products</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
-              Professional concrete products for contractors and builders. Ready mix concrete, fence posts, gravel boards and custom concrete mixes across Barry, Cardiff & South Wales.
+              Heavy-duty products built for contractors who won't accept anything less than the best.
             </p>
           </div>
           
@@ -213,7 +213,6 @@ const Home = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    alt={`${product.name} - Professional concrete products Barry Cardiff`}
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -252,9 +251,9 @@ const Home = () => {
       <section className="py-24 bg-white concrete-texture">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8">Concrete Contractors Service Areas</h2>
+            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8">Service Areas</h2>
             <p className="text-xl text-gray-600 font-medium">
-              Ready mix concrete delivery and concrete contractor services across South Wales
+              Delivering professional-grade materials across South Wales
             </p>
           </div>
           
@@ -271,9 +270,9 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-6 leading-tight">Need Ready Mix Concrete? Call Directly.</h2>
+          <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-6 leading-tight">Need Products? Call Directly.</h2>
           <p className="text-xl text-gray-600 mb-8 font-medium max-w-2xl mx-auto">
-            Professional concrete contractors ready to help. Speak directly to us for immediate FREE quotes on ready mix concrete delivery and concrete services.
+            Speak directly to us for immediate, FREE quotes. No runaround.
           </p>
           
           <a

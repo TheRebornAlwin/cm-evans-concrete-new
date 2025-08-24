@@ -9,23 +9,23 @@ const About = () => {
   const values = [
     {
       icon: <Shield className="h-8 w-8" />,
-      title: 'Professional Concrete Quality',
-      description: 'As experienced concrete contractors, we focus on quality over quantity. Our ready mix concrete and concrete products are stronger, smoother, and built to outlast inferior alternatives on the market.'
+      title: 'Quality First',
+      description: 'We focus on quality over quantity. Our concrete products are stronger, smoother, and built to outlast inferior alternatives on the market.'
     },
     {
       icon: <Clock className="h-8 w-8" />,
-      title: 'Fast Concrete Services',
-      description: 'No waiting around for callbacks on concrete delivery. Speak directly to our concrete contractors and get straight answers about ready mix concrete availability, competitive pricing, and concrete delivery schedules.'
+      title: 'Quick Service',
+      description: 'No waiting around for callbacks. Speak directly to us and get straight answers about availability, pricing, and delivery schedules.'
     },
     {
       icon: <Truck className="h-8 w-8" />,
-      title: 'Local Concrete Contractors',
-      description: 'Based in Barry, we know the area. Ready mix concrete delivery and collection available across Cardiff, Vale of Glamorgan and South Wales for all concrete services.'
+      title: 'Local Service',
+      description: 'Based in Barry, we know the area. Delivery and collection available across Cardiff and South Wales.'
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Commercial Concrete Contractors',
-      description: 'Professional concrete contractors speaking your language. No sales pitch nonsense, just straight talk about ready mix concrete, concrete delivery and FREE quotes to help get your construction job done right.'
+      title: 'Professional to Professional',
+      description: 'We speak your language. No sales pitch nonsense, just straight talk about what you need and FREE quotes to help get your job done right.'
     }
   ];
 
@@ -40,9 +40,9 @@ const About = () => {
       <section className="bg-brand-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">About C&M Evans - Professional Concrete Contractors UK</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">About C&M Evans Concrete</h1>
             <p className="text-xl text-gray-200 max-w-4xl mx-auto animate-fade-in-up-delay-1">
-              Family-run concrete contractors and ready mix concrete suppliers serving builders, landscapers and commercial concrete contractors across South Wales with professional concrete services that stand the test of time.
+              Family-run concrete supplier serving builders and landscapers across South Wales with products that stand the test of time.
             </p>
           </div>
         </div>
@@ -53,38 +53,38 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Professional Concrete Contractors Barry Cardiff</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Who We Are</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-center md:text-left">
                 <p>
-                  C&M Evans Concrete is a family-run concrete contractor and ready mix concrete supplier based in Barry. We provide builders, landscapers and commercial concrete contractors across South Wales with professional concrete services and rock-solid concrete products that stand the test of time.
+                  C&M Evans Concrete is a family-run supplier based in Barry. We provide builders and landscapers across South Wales with rock-solid concrete products that stand the test of time.
                 </p>
                 <p>
-                  We've built our reputation as trusted concrete contractors delivering excellent quality ready mix concrete, straightforward concrete services, and competitive pricing. No corporate nonsense, no hassle, no hidden fees. Just professional concrete delivery and high-quality, reliable concrete products.
+                  We've built our reputation on delivering excellent quality products, straightforward service, and competitive pricing. No corporate nonsense, no hassle, no hidden fees. Just quick purchases of high-quality, reliable products.
                 </p>
                 <p>
-                  Whether you're a builder working on a new development, a landscaper installing concrete features, or a commercial concrete contractor needing reliable ready mix concrete delivery, we've got the concrete services you need to get the job done right with free quotes available.
+                  Whether you're a builder working on a new development, a landscaper installing garden features, or a contractor needing reliable materials, we've got what you need to get the job done right with free quotes available.
                 </p>
               </div>
               
               <div className="mt-8 space-y-3">
                 <div className="flex items-center justify-center md:justify-start">
                   <CheckCircle className="h-5 w-5 text-brand-primary mr-3" />
-                  <span className="text-gray-700">Family-owned concrete contractors</span>
+                  <span className="text-gray-700">Family-owned and operated</span>
                 </div>
                 <div className="flex items-center justify-center md:justify-start">
                   <CheckCircle className="h-5 w-5 text-brand-primary mr-3" />
-                  <span className="text-gray-700">Local Barry concrete services</span>
+                  <span className="text-gray-700">Local Barry business</span>
                 </div>
                 <div className="flex items-center justify-center md:justify-start">
                   <CheckCircle className="h-5 w-5 text-brand-primary mr-3" />
-                  <span className="text-gray-700">Free concrete quotes available</span>
+                  <span className="text-gray-700">Free quotes available</span>
                 </div>
               </div>
             </div>
             <div>
               <img
                 src="/assets/whoweare.jpg"
-                alt="C&M Evans Concrete - Professional concrete contractors and ready mix concrete suppliers Barry Cardiff"
+                alt="C&M Evans Concrete - Professional concrete suppliers"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
             </div>
@@ -96,9 +96,9 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">What Makes Our Concrete Services Different</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">What Makes Us Different</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're not your typical ready mix concrete supplier. Here's why builders, landscapers and commercial concrete contractors choose our concrete services again and again across Barry, Cardiff and South Wales.
+              We're not your typical concrete supplier. Here's why builders and landscapers choose us again and again
             </p>
           </div>
           
@@ -125,21 +125,21 @@ const About = () => {
             <div>
               <img
                 src="/assets/whatweoffer.jpg"
-                alt="Ready mix concrete and concrete products - professional concrete contractors Barry Cardiff"
+                alt="Concrete products - rockface gravel boards and materials"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
             </div>
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Ready Mix Concrete & Professional Services</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">What We Offer</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-center md:text-left">
                 <p>
-                  From ready mix concrete delivery to cement bags, 6-foot concrete gravel boards, coping stones to interlocking concrete blocks, we've got the concrete services and products you need to build right the first time.
+                  From cement bags to 6-foot gravel boards, coping stones to interlocking blocks, we've got what you need to build right the first time.
                 </p>
                 <p>
-                  Our concrete fence posts and concrete gravel boards are reinforced and built to last decades, not years. As professional concrete contractors, we don't cut corners on ready mix concrete or manufacturing because we know your reputation depends on the quality of concrete work.
+                  Our concrete fence posts and gravel boards are reinforced and built to last decades, not years. We don't cut corners on materials or manufacturing because we know your reputation depends on the quality of your work.
                 </p>
                 <p>
-                  Need custom concrete mixes or something specific? Speak directly to our concrete contractors. We can often source specialist concrete products or work with you on bespoke concrete requirements for larger commercial projects with free quotes.
+                  Need something specific? Speak directly to us. We can often source specialist products or work with you on custom requirements for larger projects with free quotes.
                 </p>
               </div>
               

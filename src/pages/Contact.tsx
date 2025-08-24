@@ -54,12 +54,12 @@ const Contact = () => {
   };
 
   const contactReasons = [
-    'Get instant answers about ready mix concrete availability with free concrete quotes',
-    'Discuss your specific concrete project requirements with professional contractors',
-    'Arrange concrete delivery or collection times across Barry and Cardiff',
-    'Get honest advice from concrete contractors on what concrete services you actually need with free quotes',
-    'Receive competitive concrete pricing and ready mix concrete costs with free quotes',
-    'Schedule concrete contractor site visits for large commercial concrete projects'
+    'Get instant answers about product availability with free quotes',
+    'Discuss your specific project requirements',
+    'Arrange delivery or collection times',
+    'Get honest advice on what you actually need with free quotes',
+    'Receive competitive pricing with free quotes',
+    'Schedule site visits for large projects'
   ];
 
   return (
@@ -68,9 +68,9 @@ const Contact = () => {
       <section className="bg-brand-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Contact Professional Concrete Contractors</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Get In Touch</h1>
             <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto animate-fade-in-up-delay-1">
-              Ready to get your concrete project moving? Contact our concrete contractors for immediate answers about ready mix concrete delivery, concrete services and FREE quotes by calling directly.
+              Ready to get your project moving? Get immediate answers and FREE quotes by calling directly.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
@@ -94,15 +94,15 @@ const Contact = () => {
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-300 font-medium mt-8 animate-fade-in-up-delay-3">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 mr-2" />
-                <span>Speak Directly To Concrete Contractors</span>
+                <span>Speak Directly To Us</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 mr-2" />
-                <span>Free Concrete Quotes</span>
+                <span>Free Quotes</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 mr-2" />
-                <span>Professional Concrete Services</span>
+                <span>Professional Service</span>
               </div>
             </div>
           </div>
@@ -114,9 +114,9 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Contact Concrete Contractors</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
               <p className="text-gray-600 mb-8">
-                Can't call our concrete contractors right now? Drop us a message about your ready mix concrete needs and we'll get back to you as soon as possible with concrete delivery information.
+                Can't call right now? Drop us a message and we'll get back to you as soon as possible.
               </p>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -164,7 +164,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-primary focus:border-transparent transition-colors duration-200"
-                    placeholder="Tell us about your concrete project, ready mix concrete needs, or what concrete services you require..."
+                    placeholder="Tell us about your project or what you need..."
                   ></textarea>
                 </div>
                 
@@ -197,7 +197,7 @@ const Contact = () => {
                 {submitStatus === 'error' && (
                   <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
                     <p className="text-red-800 font-medium">
-                      Sorry, there was an error sending your message. Please try calling our concrete contractors directly at{' '}
+                      Sorry, there was an error sending your message. Please try calling directly at{' '}
                       <a href="tel:07823330492" className="text-red-600 hover:text-red-700 underline">
                         07823 330492
                       </a>
@@ -211,7 +211,7 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Concrete Contractors Contact Information</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
                 
                 <div className="space-y-6">
                   <div className="flex items-center">
@@ -237,8 +237,8 @@ const Contact = () => {
                   <div className="flex items-center">
                     <MapPin className="h-6 w-6 text-brand-primary mr-4" />
                     <div>
-                      <p className="font-medium text-gray-900">Concrete Services Area</p>
-                      <p className="text-gray-600">Ready mix concrete delivery: Barry, Cardiff & surrounding South Wales areas</p>
+                      <p className="font-medium text-gray-900">Service Area</p>
+                      <p className="text-gray-600">Barry, Cardiff & surrounding areas</p>
                     </div>
                   </div>
                   
@@ -255,7 +255,7 @@ const Contact = () => {
               </div>
               
               <div className="bg-brand-primary text-white p-8 rounded-xl">
-                <h3 className="text-2xl font-bold mb-6">Why Call Our Concrete Contractors Directly?</h3>
+                <h3 className="text-2xl font-bold mb-6">Why Call Us Directly?</h3>
                 <ul className="space-y-4">
                   {contactReasons.map((reason, index) => (
                     <li key={index} className="flex items-start">
@@ -273,9 +273,9 @@ const Contact = () => {
       {/* Quick Contact CTA */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Need an Immediate Ready Mix Concrete Quote?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Need an Immediate Quote?</h2>
           <p className="text-xl text-gray-600 mb-8">
-            For the fastest response on concrete services, call our concrete contractors directly. We're usually available during business hours and can give you instant FREE quotes on ready mix concrete delivery and concrete products.
+            For the fastest response, call directly. We're usually available during business hours and can give you instant FREE quotes.
           </p>
           
           <a
