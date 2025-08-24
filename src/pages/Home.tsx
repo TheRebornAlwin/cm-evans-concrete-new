@@ -117,8 +117,8 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>🏗️ Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales</title>
-        <meta name="description" content="⭐ Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales. FREE quotes 07823 330492 ✅" />
+        <title>Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales</title>
+        <meta name="description" content="Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales. FREE quotes 07823 330492" />
         <link rel="canonical" href="https://cmevansconcrete.co.uk/" />
         
         {/* Geo-targeting meta tags */}
