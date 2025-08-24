@@ -163,9 +163,9 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="sr-only">Contact C&M Evans Concrete Barry Cardiff Bristol - Get Quotes South Wales</h1>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Contact Concrete Suppliers</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Get In Touch</h1>
             <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto animate-fade-in-up-delay-1">
-              Ready to get your project moving? Contact concrete suppliers for immediate answers and FREE quotes on ready mix concrete, concrete blocks, and precast concrete by calling directly.
+              Ready to get your project moving? Get immediate answers and FREE quotes by calling directly.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
@@ -388,9 +388,9 @@ const Contact = () => {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="sr-only">Immediate Quotes Concrete Products Barry Cardiff Bristol South Wales</h2>
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Need an Immediate Quote?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Need Immediate Concrete Products Quote?</h2>
           <p className="text-xl text-gray-600 mb-8">
-            For the fastest response, call directly. We're usually available during business hours and can give you instant FREE quotes.
+            For the fastest response on ready mix concrete, concrete blocks, and precast concrete, call concrete suppliers directly. We're usually available during business hours and can give you instant FREE quotes.
           </p>
           
           <a
