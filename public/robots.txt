@@ -13,5 +13,12 @@ Allow: /products
 Allow: /about
 Allow: /contact
 
-# Disallow any admin or private areas (none currently exist)
+# Disallow any admin or private areas
 # Disallow: /admin/
+
+# Additional crawling instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

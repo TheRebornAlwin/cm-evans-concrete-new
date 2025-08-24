@@ -23,7 +23,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <img 
               src="/assets/logo.jpg"
-              alt="C&M Evans Concrete Logo - Professional concrete suppliers Barry Cardiff Bristol South Wales" 
+              alt="C&M Evans Concrete Logo - Premium concrete suppliers Barry Cardiff Bristol South Wales - Family-run concrete business established Barry - Professional concrete products delivery South Wales" 
               className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </Link>

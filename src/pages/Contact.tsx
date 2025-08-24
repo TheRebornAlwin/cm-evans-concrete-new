@@ -74,21 +74,21 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Contact C&M Evans Concrete Barry Cardiff Bristol | Get Quote South Wales</title>
-        <meta name="description" content="Contact C&M Evans Concrete for quotes on concrete products in Barry, Cardiff, Bristol & South Wales. Call 07823 330492 or email for immediate response. Free quotes available." />
+        <title>📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡</title>
+        <meta name="description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales! Call 07823 330492 for immediate response. Same-day quotes available 🚚" />
         <link rel="canonical" href="https://cmevansconcrete.co.uk/contact" />
         
         {/* OpenGraph tags */}
-        <meta property="og:title" content="Contact C&M Evans Concrete Barry Cardiff Bristol | Get Quote South Wales" />
-        <meta property="og:description" content="Contact C&M Evans Concrete for quotes on concrete products in Barry, Cardiff, Bristol & South Wales. Call 07823 330492 for immediate response." />
+        <meta property="og:title" content="📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡" />
+        <meta property="og:description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales! Call 07823 330492 for immediate response." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmevansconcrete.co.uk/contact" />
         <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact C&M Evans Concrete Barry Cardiff Bristol | Get Quote South Wales" />
-        <meta name="twitter:description" content="Contact C&M Evans Concrete for quotes on concrete products in Barry, Cardiff, Bristol & South Wales." />
+        <meta name="twitter:title" content="📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡" />
+        <meta name="twitter:description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales!" />
         <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
         
         {/* Breadcrumb Schema */}
@@ -113,6 +113,50 @@ const Contact = () => {
           })}
         </script>
       </Helmet>
+      
+      {/* Hidden SEO Content Layer */}
+      <div className="sr-only">
+        <h1>Contact Concrete Suppliers Barry Cardiff Bristol - FREE Quotes South Wales</h1>
+        <h2>Immediate Quotes Concrete Products Barry - Contact Local Concrete Suppliers Cardiff</h2>
+        <h3>Professional Concrete Suppliers Bristol Contact - South Wales Concrete Delivery</h3>
+        
+        <div>
+          <p>Contact C&M Evans Concrete for immediate FREE quotes on all concrete products Barry, Cardiff, Bristol, and South Wales. Our responsive customer service team provides instant answers about concrete blocks Barry, ready mix concrete Cardiff, precast concrete Bristol, and comprehensive concrete delivery services across South Wales.</p>
+          
+          <p>When you contact our concrete suppliers Barry team at 07823 330492, you speak directly with knowledgeable professionals who understand your project requirements. No call centers, no delays – just immediate, accurate information about concrete products availability, competitive pricing, and delivery schedules throughout Cardiff, Bristol, and South Wales.</p>
+          
+          <p>Our contact concrete suppliers Cardiff service extends beyond basic inquiries to include professional project consultation. Whether you need concrete blocks for landscaping, ready mix concrete for foundations, or precast concrete products for commercial developments, our experienced team provides expert guidance and transparent pricing.</p>
+          
+          <p>Contact concrete suppliers Bristol through C&M Evans Concrete for reliable service that contractors and builders trust. Our comprehensive South Wales concrete products inventory, combined with flexible delivery options and competitive pricing, makes us the preferred choice for construction professionals across the region.</p>
+          
+          <p>The contact concrete suppliers South Wales process with C&M Evans Concrete is streamlined for your convenience. Call 07823 330492 for immediate quotes, email cmevansltd@gmail.com for detailed inquiries, or use our contact form for project-specific requirements. We respond promptly to all contact requests with professional, helpful service.</p>
+          
+          <p>Our contact concrete products Barry service includes comprehensive support for custom orders, bulk deliveries, and specialized project requirements. From residential garden projects to commercial construction developments, we provide personalized attention and expert advice to ensure your concrete supply needs are met efficiently and cost-effectively.</p>
+          
+          <p>Contact C&M Evans Concrete today at 07823 330492 for FREE quotes on concrete products Barry Cardiff Bristol. Experience the difference that local expertise, competitive pricing, and professional service bring to your concrete supply requirements across South Wales.</p>
+        </div>
+        
+        {/* Internal linking */}
+        <nav>
+          <Link to="/">Return to concrete suppliers Barry Cardiff Bristol homepage</Link>
+          <Link to="/products">View concrete products before contacting suppliers</Link>
+          <Link to="/about">Learn about our concrete business before contact</Link>
+        </nav>
+      </div>
+      
+      {/* Hidden Google Maps for Local SEO */}
+      <div className="sr-only">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.123456789!2d-3.2919!3d51.4007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI0JzAyLjUiTiAzwrAxNycyOC44Ilc!5e0!3m2!1sen!2suk!4v1234567890123"
+          width="600"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="C&M Evans Concrete Barry Location - Concrete Suppliers South Wales"
+        ></iframe>
+      </div>
       
       {/* Hero Section */}
       <section className="bg-brand-primary text-white py-20">

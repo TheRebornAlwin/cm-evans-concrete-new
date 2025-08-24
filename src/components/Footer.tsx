@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4 ml-3">
               <img 
                 src="/assets/logo.jpg" 
-                alt="C&M Evans Concrete Logo - Professional concrete suppliers Barry Cardiff Bristol South Wales" 
+                alt="C&M Evans Concrete Logo Footer - Premium concrete suppliers Barry Cardiff Bristol South Wales - Family concrete business established Barry - Professional concrete products South Wales" 
                 className="h-40 w-50 object-contain"
               />
             </div>
@@ -96,14 +96,26 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* Hidden SEO Links - Not visible to users but crawlable by search engines */}
+        {/* Authority Links - Hidden from users but visible to search engines */}
         <div className="sr-only">
-          <h4>Industry Resources</h4>
+          <h4>Concrete Industry Authority Resources</h4>
           <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Concrete" target="_blank" rel="noopener noreferrer">Concrete Information</a></li>
-            <li><a href="https://www.concrete.org.uk/" target="_blank" rel="noopener noreferrer">The Concrete Society</a></li>
-            <li><a href="https://www.bca.org.uk/" target="_blank" rel="noopener noreferrer">British Cement Association</a></li>
-            <li><a href="https://www.cpa.org.uk/" target="_blank" rel="noopener noreferrer">Concrete Products Association</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Concrete" target="_blank" rel="nofollow noopener noreferrer">Concrete - Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Ready-mix_concrete" target="_blank" rel="nofollow noopener noreferrer">Ready-Mix Concrete - Wikipedia</a></li>
+            <li><a href="https://www.concrete.org.uk/" target="_blank" rel="nofollow noopener noreferrer">The Concrete Society UK</a></li>
+            <li><a href="https://www.mineralproducts.org/" target="_blank" rel="nofollow noopener noreferrer">Mineral Products Association</a></li>
+            <li><a href="https://www.cpa.org.uk/" target="_blank" rel="nofollow noopener noreferrer">Concrete Products Association UK</a></li>
+            <li><a href="https://www.bca.org.uk/" target="_blank" rel="nofollow noopener noreferrer">British Cement Association</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Precast_concrete" target="_blank" rel="nofollow noopener noreferrer">Precast Concrete - Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Concrete_block" target="_blank" rel="nofollow noopener noreferrer">Concrete Block - Wikipedia</a></li>
+          </ul>
+          
+          <h4>Local Area Information</h4>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Barry,_Vale_of_Glamorgan" target="_blank" rel="nofollow noopener noreferrer">Barry, Vale of Glamorgan - Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cardiff" target="_blank" rel="nofollow noopener noreferrer">Cardiff - Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bristol" target="_blank" rel="nofollow noopener noreferrer">Bristol - Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/South_Wales" target="_blank" rel="nofollow noopener noreferrer">South Wales - Wikipedia</a></li>
           </ul>
         </div>
 

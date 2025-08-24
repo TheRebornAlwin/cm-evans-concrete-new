@@ -38,21 +38,21 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About C&M Evans Concrete | Family Concrete Suppliers Barry Cardiff South Wales</title>
-        <meta name="description" content="Family-run concrete supplier based in Barry serving Cardiff, Bristol & South Wales. Professional concrete products, competitive prices, reliable service. Learn about our concrete business." />
+        <title>🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales ⭐</title>
+        <meta name="description" content="✅ Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices, reliable service. Learn why contractors choose us! FREE quotes 07823 330492 🚚" />
         <link rel="canonical" href="https://cmevansconcrete.co.uk/about" />
         
         {/* OpenGraph tags */}
-        <meta property="og:title" content="About C&M Evans Concrete | Family Concrete Suppliers Barry Cardiff South Wales" />
-        <meta property="og:description" content="Family-run concrete supplier based in Barry serving Cardiff, Bristol & South Wales. Professional concrete products, competitive prices, reliable service." />
+        <meta property="og:title" content="🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales ⭐" />
+        <meta property="og:description" content="✅ Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices, reliable service." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmevansconcrete.co.uk/about" />
         <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/whoweare.jpg" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About C&M Evans Concrete | Family Concrete Suppliers Barry Cardiff South Wales" />
-        <meta name="twitter:description" content="Family-run concrete supplier based in Barry serving Cardiff, Bristol & South Wales. Professional concrete products, competitive prices." />
+        <meta name="twitter:title" content="🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales ⭐" />
+        <meta name="twitter:description" content="✅ Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices." />
         <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/whoweare.jpg" />
         
         {/* Breadcrumb Schema */}
@@ -77,6 +77,36 @@ const About = () => {
           })}
         </script>
       </Helmet>
+      
+      {/* Hidden SEO Content Layer */}
+      <div className="sr-only">
+        <h1>Trusted Family Concrete Suppliers Barry Cardiff Bristol South Wales</h1>
+        <h2>Established Concrete Business Barry - Professional Concrete Products South Wales</h2>
+        <h3>Local Concrete Suppliers Cardiff Bristol - Family-Run Business Since 2020</h3>
+        
+        <div>
+          <p>C&M Evans Concrete represents the finest tradition of family-run concrete suppliers Barry, Cardiff, Bristol, and South Wales. Established as a trusted local business, we have built our reputation on delivering exceptional concrete products, competitive pricing, and personalized service that larger corporate suppliers simply cannot match.</p>
+          
+          <p>As dedicated concrete suppliers South Wales, our family business understands the unique requirements of the Welsh construction industry. From the coastal challenges of Barry to the urban developments of Cardiff and Bristol, we provide concrete products specifically suited to local conditions and building standards.</p>
+          
+          <p>Our commitment to being premier concrete suppliers Cardiff extends beyond product supply to encompass comprehensive customer service. Unlike impersonal corporate suppliers, our family-run approach means you speak directly with knowledgeable team members who understand your project requirements and can provide immediate, accurate quotes and advice.</p>
+          
+          <p>The concrete suppliers Bristol market is competitive, but our family business differentiates itself through consistent quality, reliable delivery, and honest pricing. We believe in building long-term relationships with contractors, builders, and homeowners throughout South Wales, earning trust through consistent performance rather than aggressive sales tactics.</p>
+          
+          <p>Our concrete business Barry foundation rests on core values of quality, reliability, and local expertise. We source premium materials, maintain rigorous quality standards, and ensure every concrete product meets or exceeds industry specifications. This commitment to excellence has made us the preferred choice for discerning customers across Barry, Cardiff, Bristol, and surrounding South Wales areas.</p>
+          
+          <p>As local concrete suppliers South Wales, we understand the importance of supporting the regional economy while providing exceptional value. Our family business model allows us to offer competitive pricing while maintaining the personal service and flexibility that contractors and homeowners appreciate.</p>
+          
+          <p>Contact our family-run concrete suppliers Barry team at 07823 330492 for immediate free quotes and professional advice. Experience the difference that personal service, local expertise, and family values bring to your concrete supply requirements across Barry, Cardiff, Bristol, and South Wales.</p>
+        </div>
+        
+        {/* Internal linking */}
+        <nav>
+          <Link to="/">Return to concrete suppliers Barry Cardiff Bristol homepage</Link>
+          <Link to="/products">View concrete products from family suppliers South Wales</Link>
+          <Link to="/contact">Contact family-run concrete business Barry Cardiff</Link>
+        </nav>
+      </div>
       
       {/* Hero Section */}
       <section className="bg-brand-primary text-white py-20">
@@ -128,8 +158,9 @@ const About = () => {
             <div>
               <img
                 src="/assets/whoweare.jpg"
-                alt="C&M Evans Concrete - Family concrete suppliers Barry Cardiff Bristol South Wales professional service"
+                alt="C&M Evans Concrete family business - Trusted concrete suppliers Barry Cardiff Bristol South Wales - Professional concrete products service team - Local family-run concrete business established Barry"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
+                loading="lazy"
               />
             </div>
           </div>
@@ -170,8 +201,9 @@ const About = () => {
             <div>
               <img
                 src="/assets/whatweoffer.jpg"
-                alt="Concrete products Barry Cardiff Bristol - rockface gravel boards fence posts precast concrete South Wales"
+                alt="Concrete products range Barry Cardiff Bristol - Premium rockface gravel boards concrete fence posts precast concrete blocks South Wales - Professional concrete supplies family business"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
+                loading="lazy"
               />
             </div>
             <div>
