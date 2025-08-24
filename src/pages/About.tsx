@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Phone, Shield, Truck, Clock, Users, Award, CheckCircle } from 'lucide-react';
 
 const About = () => {
@@ -36,10 +37,52 @@ const About = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>About C&M Evans Concrete | Family Concrete Suppliers Barry Cardiff South Wales</title>
+        <meta name="description" content="Family-run concrete supplier based in Barry serving Cardiff, Bristol & South Wales. Professional concrete products, competitive prices, reliable service. Learn about our concrete business." />
+        <link rel="canonical" href="https://cmevansconcrete.co.uk/about" />
+        
+        {/* OpenGraph tags */}
+        <meta property="og:title" content="About C&M Evans Concrete | Family Concrete Suppliers Barry Cardiff South Wales" />
+        <meta property="og:description" content="Family-run concrete supplier based in Barry serving Cardiff, Bristol & South Wales. Professional concrete products, competitive prices, reliable service." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cmevansconcrete.co.uk/about" />
+        <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/whoweare.jpg" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About C&M Evans Concrete | Family Concrete Suppliers Barry Cardiff South Wales" />
+        <meta name="twitter:description" content="Family-run concrete supplier based in Barry serving Cardiff, Bristol & South Wales. Professional concrete products, competitive prices." />
+        <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/whoweare.jpg" />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://cmevansconcrete.co.uk/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About Us",
+                "item": "https://cmevansconcrete.co.uk/about"
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
+      
       {/* Hero Section */}
       <section className="bg-brand-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <h1 className="sr-only">About C&M Evans Concrete Suppliers Barry Cardiff Bristol South Wales</h1>
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">About C&M Evans Concrete</h1>
             <p className="text-xl text-gray-200 max-w-4xl mx-auto animate-fade-in-up-delay-1">
               Family-run concrete supplier serving builders and landscapers across South Wales with products that stand the test of time.
@@ -53,6 +96,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
+              <h2 className="sr-only">Family Concrete Business Barry South Wales - Professional Concrete Suppliers Cardiff Bristol</h2>
               <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Who We Are</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-center md:text-left">
                 <p>
@@ -84,7 +128,7 @@ const About = () => {
             <div>
               <img
                 src="/assets/whoweare.jpg"
-                alt="C&M Evans Concrete - Professional concrete suppliers"
+                alt="C&M Evans Concrete - Family concrete suppliers Barry Cardiff Bristol South Wales professional service"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
             </div>
@@ -96,6 +140,7 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <h2 className="sr-only">Why Choose C&M Evans Concrete Products Barry Cardiff Bristol</h2>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">What Makes Us Different</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We're not your typical concrete supplier. Here's why builders and landscapers choose us again and again
@@ -125,11 +170,12 @@ const About = () => {
             <div>
               <img
                 src="/assets/whatweoffer.jpg"
-                alt="Concrete products - rockface gravel boards and materials"
+                alt="Concrete products Barry Cardiff Bristol - rockface gravel boards fence posts precast concrete South Wales"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
             </div>
             <div>
+              <h2 className="sr-only">Concrete Products Range Barry Cardiff Bristol - What We Offer South Wales</h2>
               <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">What We Offer</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-center md:text-left">
                 <p>
@@ -147,6 +193,14 @@ const About = () => {
                 <a
                   href="tel:07823330492"
                   className="inline-flex items-center px-8 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-secondary transition-colors duration-200 shadow-lg"
+                 onClick={() => {
+                   if (typeof gtag !== 'undefined') {
+                     gtag('event', 'phone_call', {
+                       event_category: 'contact',
+                       event_label: 'about_what_we_offer'
+                     });
+                   }
+                 }}
                 >
                   <Phone className="h-5 w-5 mr-2" />
                   Call Directly: 07823 330492
@@ -160,6 +214,7 @@ const About = () => {
       {/* Service Areas */}
       <section className="py-20 bg-brand-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="sr-only">Concrete Suppliers Service Areas Barry Cardiff Bristol South Wales</h2>
           <h2 className="text-4xl font-bold mb-8">Areas We Serve</h2>
           <p className="text-xl text-gray-200 mb-12">
             Delivering quality concrete products across South Wales

@@ -23,7 +23,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <img 
               src="/assets/logo.jpg"
-              alt="C&M Evans Concrete Logo" 
+              alt="C&M Evans Concrete Logo - Professional concrete suppliers Barry Cardiff Bristol South Wales" 
               className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </Link>
@@ -49,6 +49,14 @@ const Header = () => {
           <a
             href="tel:07823330492"
             className="hidden md:flex items-center space-x-2 bg-white text-brand-primary px-8 py-4 rounded-none font-bold hover:bg-gray-100 transition-all duration-200 industrial-shadow hover-lift focus-industrial"
+           onClick={() => {
+             if (typeof gtag !== 'undefined') {
+               gtag('event', 'phone_call', {
+                 event_category: 'contact',
+                 event_label: 'header_phone'
+               });
+             }
+           }}
           >
             <Phone className="h-4 w-4" />
             <span className="text-sm">07823 330492</span>
@@ -86,6 +94,15 @@ const Header = () => {
               href="tel:07823330492"
               className="block px-4 py-4 text-brand-primary font-bold bg-white rounded-none text-center mt-4 hover:bg-gray-100 transition-all duration-200 industrial-shadow"
               onClick={() => setIsMenuOpen(false)}
+             onClick={() => {
+               setIsMenuOpen(false);
+               if (typeof gtag !== 'undefined') {
+                 gtag('event', 'phone_call', {
+                   event_category: 'contact',
+                   event_label: 'mobile_menu_phone'
+                 });
+               }
+             }}
             >
               <Phone className="h-4 w-4 inline mr-2" />
               <span className="text-sm">Call: 07823 330492</span>

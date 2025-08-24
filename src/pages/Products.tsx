@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Phone, ArrowRight, Truck, Calendar, Ruler, Building2, Zap } from 'lucide-react';
 
 const Products = () => {
@@ -60,10 +61,121 @@ const Products = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Concrete Products Cardiff Bristol Barry | Precast Concrete Blocks South Wales</title>
+        <meta name="description" content="Professional concrete products in Cardiff, Bristol & Barry. Concrete blocks, precast concrete, fence posts, gravel boards, cement bags. South Wales concrete suppliers. Call 07823 330492" />
+        <link rel="canonical" href="https://cmevansconcrete.co.uk/products" />
+        
+        {/* OpenGraph tags */}
+        <meta property="og:title" content="Concrete Products Cardiff Bristol Barry | Precast Concrete Blocks South Wales" />
+        <meta property="og:description" content="Professional concrete products in Cardiff, Bristol & Barry. Concrete blocks, precast concrete, fence posts, gravel boards, cement bags." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cmevansconcrete.co.uk/products" />
+        <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/concretefenceposts.jpeg" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Concrete Products Cardiff Bristol Barry | Precast Concrete Blocks South Wales" />
+        <meta name="twitter:description" content="Professional concrete products in Cardiff, Bristol & Barry. Concrete blocks, precast concrete, fence posts, gravel boards." />
+        <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/concretefenceposts.jpeg" />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://cmevansconcrete.co.uk/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Products",
+                "item": "https://cmevansconcrete.co.uk/products"
+              }
+            ]
+          })}
+        </script>
+        
+        {/* Product Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Concrete Products",
+            "description": "Professional concrete products available in Barry, Cardiff, Bristol and South Wales",
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "position": 1,
+                "name": "Concrete Fence Posts",
+                "description": "8ft and 6ft concrete fence posts available. Other sizes can be made to order for specific project requirements.",
+                "image": "https://cmevansconcrete.co.uk/assets/concretefenceposts.jpeg",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "C&M Evans Concrete"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "availability": "https://schema.org/InStock",
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "GBP"
+                  }
+                }
+              },
+              {
+                "@type": "Product",
+                "position": 2,
+                "name": "Concrete Gravel Boards",
+                "description": "Available in 6' x 1' Smooth and Rockface finish, plus 6' x 6\" smooth options for complete fencing solutions.",
+                "image": "https://cmevansconcrete.co.uk/assets/concretegravelboards.jpg",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "C&M Evans Concrete"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "availability": "https://schema.org/InStock",
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "GBP"
+                  }
+                }
+              },
+              {
+                "@type": "Product",
+                "position": 3,
+                "name": "Concrete Interlocking Blocks",
+                "description": "Versatile interlocking concrete blocks in multiple sizes: 1200x600x600, 600x600x600, 1800x600x600, and 1200x300x600.",
+                "image": "https://cmevansconcrete.co.uk/assets/interlockinglegoblocks.jpg",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "C&M Evans Concrete"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "availability": "https://schema.org/InStock",
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "GBP"
+                  }
+                }
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
+      
       {/* Hero Section */}
       <section className="bg-brand-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <h1 className="sr-only">Concrete Products Cardiff Bristol Barry - Precast Concrete Blocks South Wales</h1>
             <h1 className="text-industrial-xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Current Products</h1>
             <p className="text-xl text-gray-200 mb-10 max-w-4xl mx-auto font-medium animate-fade-in-up-delay-1">
               Professional concrete products in stock and ready for collection or delivery across Barry, Cardiff, and South Wales. Free quotes available.
@@ -72,6 +184,14 @@ const Products = () => {
               <a
                 href="tel:07823330492"
                 className="inline-flex items-center px-10 py-5 bg-white text-brand-primary font-bold text-lg rounded-none hero-shadow hover-lift focus-industrial"
+                onClick={() => {
+                  if (typeof gtag !== 'undefined') {
+                    gtag('event', 'phone_call', {
+                      event_category: 'contact',
+                      event_label: 'products_hero'
+                    });
+                  }
+                }}
               >
                 <Phone className="h-6 w-6 mr-3" />
                 <span>Call Directly: 07823 330492</span>
@@ -92,6 +212,7 @@ const Products = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <h2 className="sr-only">Available Concrete Products Barry Cardiff Bristol - Ready Mix Concrete South Wales</h2>
             <h2 className="text-industrial-lg text-gray-900 mb-6">Available Products</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
               Quality concrete products for builders, landscapers, and contractors with free quotes available
@@ -105,7 +226,7 @@ const Products = () => {
                   <div className="md:w-2/5">
                     <img
                       src={product.image}
-                      alt={product.name}
+                      alt={`${product.name} - Professional concrete products Barry Cardiff Bristol South Wales`}
                       className="w-full h-64 md:h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -130,6 +251,14 @@ const Products = () => {
                     <a
                       href="tel:07823330492"
                       className="inline-flex items-center text-brand-primary font-bold hover:text-brand-secondary transition-colors duration-200 text-sm uppercase tracking-wide"
+                      onClick={() => {
+                        if (typeof gtag !== 'undefined') {
+                          gtag('event', 'phone_call', {
+                            event_category: 'contact',
+                            event_label: `product_${product.name.toLowerCase().replace(/\s+/g, '_')}`
+                          });
+                        }
+                      }}
                     >
                       Call for Pricing & Availability
                       <ArrowRight className="h-4 w-4 ml-2" />
@@ -150,6 +279,7 @@ const Products = () => {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <h2 className="sr-only">Custom Concrete Products Barry Cardiff - Made to Order Precast Concrete South Wales</h2>
             <h2 className="text-industrial-lg text-gray-900 mb-8">Custom Sizes Available</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium leading-relaxed">
               Many products can be made to order in custom sizes for specific project requirements
@@ -239,6 +369,14 @@ const Products = () => {
             <a
               href="tel:07823330492"
               className="inline-flex items-center px-8 py-4 bg-white text-brand-primary font-bold rounded-none hover:bg-gray-100 transition-all duration-200 industrial-shadow hover-lift"
+              onClick={() => {
+                if (typeof gtag !== 'undefined') {
+                  gtag('event', 'phone_call', {
+                    event_category: 'contact',
+                    event_label: 'stock_availability'
+                  });
+                }
+              }}
             >
               <Phone className="h-5 w-5 mr-2" />
               Call Directly: 07823 330492
@@ -251,6 +389,7 @@ const Products = () => {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-industrial-lg mb-6 text-brand-primary">Need a Quote or Have Questions?</h2>
+         <h3 className="sr-only">Contact Concrete Suppliers Barry Cardiff Bristol for Ready Mix Concrete South Wales</h3>
           <p className="text-xl text-brand-primary mb-10 font-medium max-w-2xl mx-auto">
             We can provide immediate FREE quotes, check availability, and discuss delivery options for your project.
           </p>
@@ -259,6 +398,14 @@ const Products = () => {
             <a
               href="tel:07823330492"
               className="inline-flex items-center justify-center px-10 py-5 bg-brand-primary text-white font-bold text-lg rounded-none hover:bg-brand-secondary transition-all duration-200 hero-shadow hover-lift"
+              onClick={() => {
+                if (typeof gtag !== 'undefined') {
+                  gtag('event', 'phone_call', {
+                    event_category: 'contact',
+                    event_label: 'products_cta'
+                  });
+                }
+              }}
             >
               <Phone className="h-6 w-6 mr-3" />
               <span>Call: 07823 330492</span>

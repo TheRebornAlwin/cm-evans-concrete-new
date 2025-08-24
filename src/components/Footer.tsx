@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4 ml-3">
               <img 
                 src="/assets/logo.jpg" 
-                alt="C&M Evans Concrete Logo" 
+                alt="C&M Evans Concrete Logo - Professional concrete suppliers Barry Cardiff Bristol South Wales" 
                 className="h-40 w-50 object-contain"
               />
             </div>
@@ -29,6 +29,14 @@ const Footer = () => {
               <a
                 href="tel:07823330492"
                 className="flex items-center space-x-3 text-gray-300 hover:text-white transition-colors duration-200"
+                onClick={() => {
+                  if (typeof gtag !== 'undefined') {
+                    gtag('event', 'phone_call', {
+                      event_category: 'contact',
+                      event_label: 'footer_phone'
+                    });
+                  }
+                }}
               >
                 <Phone className="h-4 w-4" />
                 <span>07823 330492</span>
@@ -86,6 +94,17 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
+        
+        {/* Hidden SEO Links - Not visible to users but crawlable by search engines */}
+        <div className="sr-only">
+          <h4>Industry Resources</h4>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Concrete" target="_blank" rel="noopener noreferrer">Concrete Information</a></li>
+            <li><a href="https://www.concrete.org.uk/" target="_blank" rel="noopener noreferrer">The Concrete Society</a></li>
+            <li><a href="https://www.bca.org.uk/" target="_blank" rel="noopener noreferrer">British Cement Association</a></li>
+            <li><a href="https://www.cpa.org.uk/" target="_blank" rel="noopener noreferrer">Concrete Products Association</a></li>
+          </ul>
         </div>
 
         <div className="border-t border-brand-tertiary pt-8 mt-8">

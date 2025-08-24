@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Phone, ArrowRight, CheckCircle, Truck, Shield, Clock } from 'lucide-react';
 
 const HeroCarousel = () => {
@@ -109,12 +110,85 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Concrete Products Barry Cardiff Bristol | C&M Evans Concrete South Wales</title>
+        <meta name="description" content="Leading concrete products supplier in Barry serving Cardiff, Bristol & South Wales. Ready mix concrete, concrete blocks, precast concrete, fence posts & gravel boards. Free quotes: 07823 330492" />
+        <link rel="canonical" href="https://cmevansconcrete.co.uk/" />
+        
+        {/* OpenGraph tags */}
+        <meta property="og:title" content="Concrete Products Barry Cardiff Bristol | C&M Evans Concrete South Wales" />
+        <meta property="og:description" content="Leading concrete products supplier in Barry serving Cardiff, Bristol & South Wales. Ready mix concrete, concrete blocks, precast concrete, fence posts & gravel boards." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cmevansconcrete.co.uk/" />
+        <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:site_name" content="C&M Evans Concrete" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Concrete Products Barry Cardiff Bristol | C&M Evans Concrete South Wales" />
+        <meta name="twitter:description" content="Leading concrete products supplier in Barry serving Cardiff, Bristol & South Wales. Ready mix concrete, concrete blocks, precast concrete." />
+        <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
+        
+        {/* Local Business Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "C&M Evans Concrete",
+            "description": "Professional concrete products supplier serving Barry, Cardiff, Bristol and South Wales",
+            "url": "https://cmevansconcrete.co.uk",
+            "telephone": "07823330492",
+            "email": "cmevansltd@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Barry",
+              "addressRegion": "South Wales",
+              "addressCountry": "GB"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "51.4007",
+              "longitude": "-3.2919"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Barry"
+              },
+              {
+                "@type": "City", 
+                "name": "Cardiff"
+              },
+              {
+                "@type": "City",
+                "name": "Bristol"
+              },
+              {
+                "@type": "State",
+                "name": "South Wales"
+              }
+            ],
+            "openingHours": [
+              "Mo-Fr 08:00-17:00",
+              "Sa 09:00-12:00"
+            ],
+            "priceRange": "££",
+            "image": "https://cmevansconcrete.co.uk/assets/logo.jpg",
+            "sameAs": [
+              "https://www.instagram.com/cm_evans2023"
+            ]
+          })}
+        </script>
+      </Helmet>
+      
       {/* Hero Section */}
       <section className="relative text-white overflow-hidden min-h-screen">
         <HeroCarousel />
         <div className="relative z-10 flex items-center justify-center min-h-screen">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div className="text-center">
+              <h1 className="sr-only">Concrete Products Barry Cardiff Bristol - Ready Mix Concrete South Wales Suppliers</h1>
               <h1 className="text-industrial-xl lg:text-7xl leading-none mb-8 animate-fade-in-up mobile-hero-heading md:text-industrial-xl">
                 Concrete Products<br className="md:hidden" /> Built to Last.{' '}
                 <span className="text-gray-300 block mt-2">Quality You Can<br className="md:hidden" /> Trust.</span>
@@ -135,6 +209,7 @@ const Home = () => {
                 <Link
                   to="/products"
                   className="inline-flex items-center justify-center px-10 py-5 border-2 border-white text-white font-bold rounded-none hover:bg-white hover:text-brand-primary transition-all duration-200 hover-lift"
+                  aria-label="View concrete products including fence posts, gravel boards, and concrete blocks"
                 >
                   <span>View Products</span>
                   <ArrowRight className="h-5 w-5 ml-2" />
@@ -164,6 +239,7 @@ const Home = () => {
       <section className="py-24 bg-white concrete-texture">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <h2 className="sr-only">Why Choose C&M Evans Concrete Products Barry Cardiff</h2>
             <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Why Choose C&M Evans?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
               We're not your typical supplier. Here's what separates us from the competition. Free quotes available.
@@ -200,6 +276,7 @@ const Home = () => {
       <section className="py-24 bg-gray-50 metal-texture">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <h2 className="sr-only">Professional Concrete Products South Wales - Precast Concrete Cardiff Bristol</h2>
             <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Professional Products</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
               Heavy-duty products built for contractors who won't accept anything less than the best.
@@ -212,7 +289,7 @@ const Home = () => {
                 <div className="relative overflow-hidden">
                   <img
                     src={product.image}
-                    alt={product.name}
+                    alt={`${product.name} - Professional concrete products Barry Cardiff South Wales`}
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -226,6 +303,15 @@ const Home = () => {
                   <a
                     href="tel:07823330492"
                     className="inline-flex items-center text-brand-primary font-bold hover:text-brand-secondary transition-colors duration-200 text-sm uppercase tracking-wide"
+                    onClick={() => {
+                      // Track phone calls for analytics
+                      if (typeof gtag !== 'undefined') {
+                        gtag('event', 'phone_call', {
+                          event_category: 'contact',
+                          event_label: 'product_inquiry'
+                        });
+                      }
+                    }}
                   >
                     Call for Details
                     <ArrowRight className="h-4 w-4 ml-2" />
@@ -239,6 +325,7 @@ const Home = () => {
             <Link
               to="/products"
               className="inline-flex items-center px-12 py-5 bg-brand-primary text-white font-bold rounded-none hover:bg-brand-secondary transition-all duration-200 industrial-shadow hover-lift"
+              aria-label="View all concrete products including ready mix concrete and concrete blocks"
             >
               <span>View All Products</span>
               <ArrowRight className="h-5 w-5 ml-2" />
@@ -251,6 +338,7 @@ const Home = () => {
       <section className="py-24 bg-white concrete-texture">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <h2 className="sr-only">Concrete Suppliers Barry Cardiff Bristol South Wales Service Areas</h2>
             <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8">Service Areas</h2>
             <p className="text-xl text-gray-600 font-medium">
               Delivering professional-grade materials across South Wales
@@ -271,6 +359,7 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-6 leading-tight">Need Products? Call Directly.</h2>
+          <h3 className="sr-only">Contact C&M Evans Concrete Products Barry for Ready Mix Concrete Cardiff Bristol</h3>
           <p className="text-xl text-gray-600 mb-8 font-medium max-w-2xl mx-auto">
             Speak directly to us for immediate, FREE quotes. No runaround.
           </p>
@@ -278,6 +367,15 @@ const Home = () => {
           <a
             href="tel:07823330492"
             className="inline-flex items-center justify-center px-16 py-6 bg-brand-primary text-white font-bold text-xl rounded-none depth-shadow hover-lift focus-industrial mb-6"
+          onClick={() => {
+            // Track phone calls for analytics
+            if (typeof gtag !== 'undefined') {
+              gtag('event', 'phone_call', {
+                event_category: 'contact',
+                event_label: 'cta_main'
+              });
+            }
+          }}
           >
             <Phone className="h-7 w-7 mr-4" />
             <span>07823 330492</span>

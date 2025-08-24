@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ArrowRight } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
@@ -37,6 +38,14 @@ const Contact = () => {
       } else {
         setSubmitStatus('success');
         setFormData({ name: '', email: '', message: '' });
+        
+        // Track successful form submission
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'form_submit', {
+            event_category: 'contact',
+            event_label: 'contact_form_success'
+          });
+        }
       }
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -64,10 +73,52 @@ const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Contact C&M Evans Concrete Barry Cardiff Bristol | Get Quote South Wales</title>
+        <meta name="description" content="Contact C&M Evans Concrete for quotes on concrete products in Barry, Cardiff, Bristol & South Wales. Call 07823 330492 or email for immediate response. Free quotes available." />
+        <link rel="canonical" href="https://cmevansconcrete.co.uk/contact" />
+        
+        {/* OpenGraph tags */}
+        <meta property="og:title" content="Contact C&M Evans Concrete Barry Cardiff Bristol | Get Quote South Wales" />
+        <meta property="og:description" content="Contact C&M Evans Concrete for quotes on concrete products in Barry, Cardiff, Bristol & South Wales. Call 07823 330492 for immediate response." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cmevansconcrete.co.uk/contact" />
+        <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact C&M Evans Concrete Barry Cardiff Bristol | Get Quote South Wales" />
+        <meta name="twitter:description" content="Contact C&M Evans Concrete for quotes on concrete products in Barry, Cardiff, Bristol & South Wales." />
+        <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://cmevansconcrete.co.uk/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact",
+                "item": "https://cmevansconcrete.co.uk/contact"
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
+      
       {/* Hero Section */}
       <section className="bg-brand-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <h1 className="sr-only">Contact C&M Evans Concrete Barry Cardiff Bristol - Get Quotes South Wales</h1>
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Get In Touch</h1>
             <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto animate-fade-in-up-delay-1">
               Ready to get your project moving? Get immediate answers and FREE quotes by calling directly.
@@ -77,6 +128,14 @@ const Contact = () => {
               <a
                 href="tel:07823330492"
                 className="inline-flex items-center justify-center px-10 py-5 bg-white text-brand-primary font-bold text-lg rounded-none border-2 border-white/20 hero-shadow hover-lift focus-industrial"
+               onClick={() => {
+                 if (typeof gtag !== 'undefined') {
+                   gtag('event', 'phone_call', {
+                     event_category: 'contact',
+                     event_label: 'contact_hero'
+                   });
+                 }
+               }}
               >
                 <Phone className="h-6 w-6 mr-3" />
                 <span className="hidden md:inline">Call Directly: 07823 330492</span>
@@ -114,6 +173,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h2 className="sr-only">Contact Form C&M Evans Concrete Barry Cardiff Bristol South Wales</h2>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
               <p className="text-gray-600 mb-8">
                 Can't call right now? Drop us a message and we'll get back to you as soon as possible.
@@ -211,6 +271,7 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="sr-only">C&M Evans Concrete Contact Details Barry Cardiff Bristol South Wales</h3>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
                 
                 <div className="space-y-6">
@@ -219,6 +280,14 @@ const Contact = () => {
                     <div>
                       <p className="font-medium text-gray-900">Phone</p>
                       <a href="tel:07823330492" className="text-brand-primary hover:text-brand-secondary transition-colors duration-200 text-lg font-semibold">
+                        onClick={() => {
+                          if (typeof gtag !== 'undefined') {
+                            gtag('event', 'phone_call', {
+                              event_category: 'contact',
+                              event_label: 'contact_info_phone'
+                            });
+                          }
+                        }}
                         07823 330492
                       </a>
                     </div>
@@ -255,6 +324,7 @@ const Contact = () => {
               </div>
               
               <div className="bg-brand-primary text-white p-8 rounded-xl">
+               <h3 className="sr-only">Why Contact C&M Evans Concrete Barry Cardiff Bristol</h3>
                 <h3 className="text-2xl font-bold mb-6">Why Call Us Directly?</h3>
                 <ul className="space-y-4">
                   {contactReasons.map((reason, index) => (
@@ -273,6 +343,7 @@ const Contact = () => {
       {/* Quick Contact CTA */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="sr-only">Immediate Quotes Concrete Products Barry Cardiff Bristol South Wales</h2>
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Need an Immediate Quote?</h2>
           <p className="text-xl text-gray-600 mb-8">
             For the fastest response, call directly. We're usually available during business hours and can give you instant FREE quotes.
@@ -281,6 +352,14 @@ const Contact = () => {
           <a
             href="tel:07823330492"
             className="inline-flex items-center px-10 py-5 bg-brand-primary text-white font-bold text-lg rounded-lg hover:bg-brand-secondary transition-colors duration-200 shadow-lg"
+         onClick={() => {
+           if (typeof gtag !== 'undefined') {
+             gtag('event', 'phone_call', {
+               event_category: 'contact',
+               event_label: 'contact_cta'
+             });
+           }
+         }}
           >
             <Phone className="h-6 w-6 mr-3" />
             Call Now: 07823 330492
