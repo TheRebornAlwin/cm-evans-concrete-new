@@ -9,44 +9,44 @@ const Products = () => {
   const coreProducts = [
     {
       name: 'Concrete Fence Posts',
-      description: '8ft and 6ft concrete fence posts available. Other sizes can be made to order for specific project requirements.',
+      description: 'Professional grade 8ft and 6ft concrete fence posts for residential and commercial projects. Custom sizes available to order for bespoke concrete solutions across Barry and Cardiff.',
       image: '/assets/concretefenceposts.jpeg',
-      features: ['8ft and 6ft standard sizes', 'Custom sizes to order', 'Reinforced concrete', 'Weather resistant'],
+      features: ['8ft and 6ft standard sizes', 'Custom concrete sizes to order', 'Reinforced concrete construction', 'Weather resistant for UK climate'],
       category: 'Fencing & Posts'
     },
     {
       name: 'Concrete Gravel Boards',
-      description: 'Available in 6\' x 1\' Smooth and Rockface finish, plus 6\' x 6" smooth options for complete fencing solutions.',
+      description: 'Professional concrete gravel boards available in 6\' x 1\' Smooth and Rockface finish, plus 6\' x 6" smooth options. Essential for complete concrete fencing systems across South Wales.',
       image: '/assets/concretegravelboards.jpg',
-      features: ['6\' x 1\' Smooth finish', '6\' x 1\' Rockface finish', '6\' x 6" Smooth option', 'Complete fencing system'],
+      features: ['6\' x 1\' Smooth concrete finish', '6\' x 1\' Rockface concrete finish', '6\' x 6" Smooth concrete option', 'Complete concrete fencing system'],
       category: 'Fencing & Posts'
     },
     {
       name: 'Concrete Interlocking (Lego) Blocks',
-      description: 'Versatile interlocking concrete blocks in multiple sizes: 1200x600x600, 600x600x600, 1800x600x600, and 1200x300x600.',
+      description: 'Versatile interlocking concrete blocks for construction projects. Multiple sizes available: 1200x600x600, 600x600x600, 1800x600x600, and 1200x300x600. Perfect for commercial concrete applications.',
       image: '/assets/interlockinglegoblocks.jpg',
-      features: ['1200 x 600 x 600mm', '600 x 600 x 600mm', '1800 x 600 x 600mm', '1200 x 300 x 600mm'],
+      features: ['1200 x 600 x 600mm concrete blocks', '600 x 600 x 600mm concrete blocks', '1800 x 600 x 600mm concrete blocks', '1200 x 300 x 600mm concrete blocks'],
       category: 'Building Blocks'
     },
     {
       name: 'Postfast 20kg Rapid Set',
-      description: 'Quick-setting concrete mix in convenient 20kg bags. Perfect for fence post installation and rapid setting applications.',
+      description: 'Professional rapid-setting concrete mix in convenient 20kg bags. Perfect for fence post installation, concrete repairs and quick-setting concrete applications across Barry and Cardiff.',
       image: '/assets/postfast.jpg',
-      features: ['20kg bags', 'Rapid setting formula', 'Easy to use', 'Professional strength'],
+      features: ['20kg concrete mix bags', 'Rapid setting concrete formula', 'Easy to use concrete mix', 'Professional strength concrete'],
       category: 'Cement & Mix'
     },
     {
       name: 'Mannok General Purpose Cement 25kg',
-      description: 'High-quality Mannok general purpose cement in 25kg bags. Suitable for all standard construction applications.',
+      description: 'Premium Mannok general purpose cement in 25kg bags. High-quality cement suitable for ready mix concrete and all standard construction applications across South Wales.',
       image: '/assets/manokgeneralcement.jpg',
-      features: ['25kg bags', 'General purpose use', 'Mannok brand quality', 'Construction grade'],
+      features: ['25kg cement bags', 'General purpose concrete use', 'Mannok brand quality cement', 'Professional construction grade'],
       category: 'Cement & Mix'
     },
     {
       name: 'Coping Stones & Pillar Caps',
-      description: 'Various sizes of coping stones and pillar caps available for professional finishing of walls and boundaries.',
+      description: 'Professional coping stones and pillar caps in various sizes. Perfect for finishing concrete walls and boundaries in residential and commercial concrete projects.',
       image: '/assets/copingstonespillarcaps.jpg',
-      features: ['Various sizes available', 'Professional finish', 'Weather resistant', 'Custom options'],
+      features: ['Various concrete sizes available', 'Professional concrete finish', 'Weather resistant concrete', 'Custom concrete options'],
       category: 'Finishing'
     }
   ];
@@ -64,9 +64,9 @@ const Products = () => {
       <section className="bg-brand-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-industrial-xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Current Products</h1>
+            <h1 className="text-industrial-xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Ready Mix Concrete & Building Products Barry Cardiff</h1>
             <p className="text-xl text-gray-200 mb-10 max-w-4xl mx-auto font-medium animate-fade-in-up-delay-1">
-              Professional concrete products in stock and ready for collection or delivery across Barry, Cardiff, and South Wales. Free quotes available.
+              Professional concrete contractors supplying ready mix concrete, fence posts, gravel boards and custom concrete mixes. Concrete delivery across Barry, Cardiff and South Wales. Free quotes available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up-delay-2">
               <a
@@ -92,9 +92,9 @@ const Products = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-industrial-lg text-gray-900 mb-6">Available Products</h2>
+            <h2 className="text-industrial-lg text-gray-900 mb-6">Ready Mix Concrete & Building Products Available</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
-              Quality concrete products for builders, landscapers, and contractors with free quotes available
+              Professional concrete products for builders, landscapers and commercial concrete contractors across Barry, Cardiff & South Wales. Ready mix concrete delivery and free quotes available.
             </p>
           </div>
           
@@ -106,6 +106,7 @@ const Products = () => {
                     <img
                       src={product.image}
                       alt={product.name}
+                      alt={`${product.name} - Professional concrete products supplier Barry Cardiff`}
                       className="w-full h-64 md:h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -150,9 +151,9 @@ const Products = () => {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-industrial-lg text-gray-900 mb-8">Custom Sizes Available</h2>
+            <h2 className="text-industrial-lg text-gray-900 mb-8">Custom Concrete Mixes & Bespoke Sizes Available</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium leading-relaxed">
-              Many products can be made to order in custom sizes for specific project requirements
+              Bespoke concrete mixes made to specification. Custom concrete products and sizes available for commercial concrete contractors and construction projects across UK.
             </p>
           </div>
           
@@ -172,7 +173,7 @@ const Products = () => {
                 </div>
                 
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 group-hover:text-brand-primary transition-colors duration-300">Custom Fence Posts</h3>
-                <p className="text-gray-600 leading-relaxed font-medium">Other sizes beyond 6ft and 8ft can be made to order for specific projects. Whether you need 4ft posts for garden features or 10ft posts for commercial boundaries, we can manufacture to your exact specifications.</p>
+                <p className="text-gray-600 leading-relaxed font-medium">Custom concrete fence posts beyond standard 6ft and 8ft sizes. Whether you need 4ft posts for residential projects or 10ft posts for commercial concrete boundaries, we manufacture bespoke concrete products to your exact specifications.</p>
                 
                 {/* Bottom accent line */}
                 <div className="w-16 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary rounded-full mx-auto mt-6 group-hover:w-24 transition-all duration-300"></div>
@@ -194,7 +195,7 @@ const Products = () => {
                 </div>
                 
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 group-hover:text-brand-primary transition-colors duration-300">Project Consultation</h3>
-                <p className="text-gray-600 leading-relaxed font-medium">Discuss your specific requirements and we'll advise on the best products for your project. From residential garden boundaries to commercial developments, we help you choose the right materials and dimensions with free quotes.</p>
+                <p className="text-gray-600 leading-relaxed font-medium">Professional concrete contractor consultation for your specific requirements. From residential concrete projects to commercial concrete developments, we advise on the best ready mix concrete and materials with free quotes.</p>
                 
                 {/* Bottom accent line */}
                 <div className="w-16 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary rounded-full mx-auto mt-6 group-hover:w-24 transition-all duration-300"></div>
@@ -215,8 +216,8 @@ const Products = () => {
                   <div className="absolute inset-0 w-20 h-20 bg-brand-primary/20 rounded-2xl mx-auto blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-gray-900 mb-6 group-hover:text-brand-primary transition-colors duration-300">Reasonable Turnaround</h3>
-                <p className="text-gray-600 leading-relaxed font-medium">Most custom orders can be completed within reasonable timeframes to keep your project moving. We understand deadlines matter, so we prioritize custom work to minimize delays on your build schedule with free quotes.</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6 group-hover:text-brand-primary transition-colors duration-300">Fast Concrete Delivery</h3>
+                <p className="text-gray-600 leading-relaxed font-medium">Most custom concrete orders and ready mix concrete delivery completed within reasonable timeframes. We understand construction deadlines matter, so we prioritize concrete delivery to minimize delays on your build schedule with free quotes.</p>
                 
                 {/* Bottom accent line */}
                 <div className="w-16 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary rounded-full mx-auto mt-6 group-hover:w-24 transition-all duration-300"></div>
@@ -231,10 +232,9 @@ const Products = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-brand-primary text-white p-8 rounded-none industrial-shadow">
             <Truck className="h-12 w-12 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-4">Stock & Availability</h3>
+            <h3 className="text-2xl font-bold mb-4">Ready Mix Concrete Stock & Availability</h3>
             <p className="text-gray-200 mb-6 leading-relaxed font-medium">
-              Stock levels change regularly. For current availability, pricing, and delivery options, 
-              call directly for immediate answers and free quotes.
+              Ready mix concrete and concrete product stock levels change regularly. For current concrete availability, competitive pricing, and concrete delivery options across Barry and Cardiff, call directly for immediate answers and free quotes.
             </p>
             <a
               href="tel:07823330492"
@@ -250,9 +250,9 @@ const Products = () => {
       {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-industrial-lg mb-6 text-brand-primary">Need a Quote or Have Questions?</h2>
+          <h2 className="text-industrial-lg mb-6 text-brand-primary">Need Ready Mix Concrete Quote or Have Questions?</h2>
           <p className="text-xl text-brand-primary mb-10 font-medium max-w-2xl mx-auto">
-            We can provide immediate FREE quotes, check availability, and discuss delivery options for your project.
+            Professional concrete contractors ready to help. We provide immediate FREE quotes, check ready mix concrete availability, and discuss concrete delivery options for your construction project.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
