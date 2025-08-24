@@ -38,21 +38,21 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales ⭐</title>
-        <meta name="description" content="✅ Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices, reliable service. Learn why contractors choose us! FREE quotes 07823 330492 🚚" />
+        <title>🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales</title>
+        <meta name="description" content="Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices, reliable service. Learn why contractors choose us! FREE quotes 07823 330492" />
         <link rel="canonical" href="https://cmevansconcrete.co.uk/about" />
         
         {/* OpenGraph tags */}
-        <meta property="og:title" content="🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales ⭐" />
-        <meta property="og:description" content="✅ Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices, reliable service." />
+        <meta property="og:title" content="About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales" />
+        <meta property="og:description" content="Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices, reliable service." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmevansconcrete.co.uk/about" />
         <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/whoweare.jpg" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🏢 About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales ⭐" />
-        <meta name="twitter:description" content="✅ Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices." />
+        <meta name="twitter:title" content="About C&M Evans Concrete | Trusted Family Concrete Suppliers Barry Cardiff South Wales" />
+        <meta name="twitter:description" content="Family-run concrete supplier Barry serving Cardiff, Bristol & South Wales since 2020. Premium concrete products, competitive prices." />
         <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/whoweare.jpg" />
         
         {/* Breadcrumb Schema */}
