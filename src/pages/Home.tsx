@@ -138,8 +138,8 @@ const Home = () => {
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🏗️ Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales" />
-        <meta name="twitter:description" content="⭐ Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales." />
+        <meta name="twitter:title" content="Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales" />
+        <meta name="twitter:description" content="Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales." />
         <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
         
         {/* Enhanced Local Business Schema */}
