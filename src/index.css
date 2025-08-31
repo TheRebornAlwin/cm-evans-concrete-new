@@ -131,22 +131,6 @@
     0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-/* Performance optimizations for Core Web Vitals */
-.location-card {
-  contain: layout style paint;
-  will-change: transform;
-}
-
-.location-card:hover {
-  will-change: auto;
-}
-
-/* Reduce layout shift */
-img[loading="lazy"] {
-  min-height: 200px;
-  background-color: #f3f4f6;
-}
-
 /* Hero Carousel Animation */
 @keyframes heroSlide {
   0% { opacity: 0; }

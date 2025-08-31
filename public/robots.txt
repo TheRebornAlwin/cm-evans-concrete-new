@@ -10,9 +10,6 @@ Crawl-delay: 1
 # Allow all search engines to access the site
 Allow: /assets/
 Allow: /products
-Allow: /concrete-products-barry
-Allow: /concrete-products-cardiff
-Allow: /concrete-products-bristol
 Allow: /about
 Allow: /contact
 

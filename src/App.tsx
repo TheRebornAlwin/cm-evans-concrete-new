@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Products from './pages/Products';
-import LocationSpecificProducts from './pages/LocationSpecificProducts';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -17,9 +16,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
-            <Route path="/concrete-products-barry" element={<LocationSpecificProducts />} />
-            <Route path="/concrete-products-cardiff" element={<LocationSpecificProducts />} />
-            <Route path="/concrete-products-bristol" element={<LocationSpecificProducts />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

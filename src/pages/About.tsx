@@ -113,9 +113,9 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="sr-only">About C&M Evans Concrete Suppliers Barry Cardiff Bristol South Wales</h1>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">About Our Concrete Suppliers</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">About C&M Evans Concrete</h1>
             <p className="text-xl text-gray-200 max-w-4xl mx-auto animate-fade-in-up-delay-1">
-              Family-run concrete suppliers serving builders and landscapers across South Wales with ready mix concrete, concrete blocks, and precast concrete that stand the test of time.
+              Family-run concrete supplier serving builders and landscapers across South Wales with products that stand the test of time.
             </p>
           </div>
         </div>
@@ -127,16 +127,16 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="sr-only">Family Concrete Business Barry South Wales - Professional Concrete Suppliers Cardiff Bristol</h2>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Professional Concrete Suppliers</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Who We Are</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-center md:text-left">
                 <p>
-                  C&M Evans Concrete is a family-run concrete suppliers business based in Barry. We provide builders and landscapers across South Wales with ready mix concrete, concrete blocks, and precast concrete products that stand the test of time.
+                  C&M Evans Concrete is a family-run supplier based in Barry. We provide builders and landscapers across South Wales with rock-solid concrete products that stand the test of time.
                 </p>
                 <p>
-                  We've built our reputation as trusted concrete suppliers on delivering excellent quality ready mix concrete, concrete blocks, and precast concrete with straightforward service and competitive pricing. No corporate nonsense, no hassle, no hidden fees. Just quick purchases of high-quality, reliable concrete products.
+                  We've built our reputation on delivering excellent quality products, straightforward service, and competitive pricing. No corporate nonsense, no hassle, no hidden fees. Just quick purchases of high-quality, reliable products.
                 </p>
                 <p>
-                  Whether you're a builder working on a new development needing ready mix concrete, a landscaper installing garden features requiring concrete blocks, or a contractor needing reliable precast concrete, our concrete suppliers have what you need with free quotes available.
+                  Whether you're a builder working on a new development, a landscaper installing garden features, or a contractor needing reliable materials, we've got what you need to get the job done right with free quotes available.
                 </p>
               </div>
               
@@ -172,9 +172,9 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="sr-only">Why Choose C&M Evans Concrete Products Barry Cardiff Bristol</h2>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Our Concrete Suppliers</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">What Makes Us Different</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're not your typical concrete suppliers. Here's why builders and landscapers choose our ready mix concrete, concrete blocks, and precast concrete again and again
+              We're not your typical concrete supplier. Here's why builders and landscapers choose us again and again
             </p>
           </div>
           
@@ -208,16 +208,16 @@ const About = () => {
             </div>
             <div>
               <h2 className="sr-only">Concrete Products Range Barry Cardiff Bristol - What We Offer South Wales</h2>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">Our Concrete Products Range</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center md:text-left">What We Offer</h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-center md:text-left">
                 <p>
-                  From ready mix concrete to concrete blocks, 6-foot gravel boards to precast concrete coping stones and interlocking blocks, our concrete suppliers have what you need to build right the first time.
+                  From cement bags to 6-foot gravel boards, coping stones to interlocking blocks, we've got what you need to build right the first time.
                 </p>
                 <p>
-                  Our precast concrete fence posts, concrete blocks, and gravel boards are reinforced and built to last decades, not years. As professional concrete suppliers, we don't cut corners on ready mix concrete materials or manufacturing because we know your reputation depends on the quality of your work.
+                  Our concrete fence posts and gravel boards are reinforced and built to last decades, not years. We don't cut corners on materials or manufacturing because we know your reputation depends on the quality of your work.
                 </p>
                 <p>
-                  Need something specific? Speak directly to our concrete suppliers. We can often source specialist ready mix concrete, concrete blocks, or precast concrete products, or work with you on custom requirements for larger projects with free quotes.
+                  Need something specific? Speak directly to us. We can often source specialist products or work with you on custom requirements for larger projects with free quotes.
                 </p>
               </div>
               
@@ -247,9 +247,9 @@ const About = () => {
       <section className="py-20 bg-brand-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="sr-only">Concrete Suppliers Service Areas Barry Cardiff Bristol South Wales</h2>
-          <h2 className="text-4xl font-bold mb-8">Concrete Suppliers Service Areas</h2>
+          <h2 className="text-4xl font-bold mb-8">Areas We Serve</h2>
           <p className="text-xl text-gray-200 mb-12">
-            Concrete suppliers delivering ready mix concrete, concrete blocks, and precast concrete across South Wales
+            Delivering quality concrete products across South Wales
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
             <div className="p-4 bg-brand-secondary rounded-lg hover:bg-white hover:text-brand-primary transition-colors duration-200">Barry</div>

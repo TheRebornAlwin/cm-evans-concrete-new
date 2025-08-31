@@ -117,8 +117,8 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales</title>
-        <meta name="description" content="Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales. FREE quotes 07823 330492" />
+        <title>🏗️ Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales</title>
+        <meta name="description" content="⭐ Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales. FREE quotes 07823 330492 ✅" />
         <link rel="canonical" href="https://cmevansconcrete.co.uk/" />
         
         {/* Geo-targeting meta tags */}
@@ -128,8 +128,8 @@ const Home = () => {
         <meta name="ICBM" content="51.4007, -3.2919" />
         
         {/* OpenGraph tags */}
-        <meta property="og:title" content="Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales" />
-        <meta property="og:description" content="Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales." />
+        <meta property="og:title" content="🏗️ Premium Concrete Products Barry Cardiff Bristol | #1 Ready Mix Concrete Suppliers South Wales" />
+        <meta property="og:description" content="⭐ Top-rated concrete suppliers Barry! Premium ready mix concrete, precast blocks & fence posts. Same-day delivery Cardiff, Bristol & South Wales." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmevansconcrete.co.uk/" />
         <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
@@ -361,11 +361,11 @@ const Home = () => {
             <div className="text-center">
               <h1 className="sr-only">Concrete Products Barry Cardiff Bristol - Ready Mix Concrete South Wales Suppliers</h1>
               <h1 className="text-industrial-xl lg:text-7xl leading-none mb-8 animate-fade-in-up mobile-hero-heading md:text-industrial-xl">
-                Ready Mix Concrete<br className="md:hidden" /> Barry Cardiff Bristol{' '}
-                <span className="text-gray-300 block mt-2">Premium Concrete<br className="md:hidden" /> Suppliers South Wales</span>
+                Concrete Products<br className="md:hidden" /> Built to Last.{' '}
+                <span className="text-gray-300 block mt-2">Quality You Can<br className="md:hidden" /> Trust.</span>
               </h1>
               <p className="text-xl text-gray-200 mb-10 leading-relaxed max-w-2xl mx-auto font-medium animate-fade-in-up-delay-1 mobile-hero-subheading md:text-xl">
-                Professional concrete blocks, precast concrete,<br className="md:hidden" /> and volumetric concrete delivery.<br className="md:hidden" /> Free quotes available.
+                Based in Barry. Professional-grade concrete<br className="md:hidden" /> products for contractors who demand<br className="md:hidden" /> quality. Free quotes available.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 mb-12 justify-center animate-fade-in-up-delay-2">
@@ -411,9 +411,9 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="sr-only">Why Choose C&M Evans Concrete Products Barry Cardiff</h2>
-            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Why Choose Our Concrete Suppliers?</h2>
+            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Why Choose C&M Evans?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
-              Professional concrete products Barry Cardiff Bristol. Here's what separates us from other concrete suppliers. Free quotes available.
+              We're not your typical supplier. Here's what separates us from the competition. Free quotes available.
             </p>
           </div>
           
@@ -448,9 +448,9 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="sr-only">Professional Concrete Products South Wales - Precast Concrete Cardiff Bristol</h2>
-            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Concrete Blocks & Precast Concrete</h2>
+            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8 leading-tight">Professional Products</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
-              Professional concrete blocks, precast concrete, and ready mix concrete for contractors across Barry Cardiff Bristol.
+              Heavy-duty products built for contractors who won't accept anything less than the best.
             </p>
           </div>
           
@@ -511,9 +511,9 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="sr-only">Concrete Suppliers Barry Cardiff Bristol South Wales Service Areas</h2>
-            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8">Concrete Delivery Areas</h2>
+            <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-8">Service Areas</h2>
             <p className="text-xl text-gray-600 font-medium">
-              Ready mix concrete delivery and concrete suppliers serving South Wales
+              Delivering professional-grade materials across South Wales
             </p>
           </div>
           
@@ -530,10 +530,10 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-6 leading-tight">Need Concrete Products? Call Directly.</h2>
+          <h2 className="text-industrial-lg lg:text-5xl text-gray-900 mb-6 leading-tight">Need Products? Call Directly.</h2>
           <h3 className="sr-only">Contact C&M Evans Concrete Products Barry for Ready Mix Concrete Cardiff Bristol</h3>
           <p className="text-xl text-gray-600 mb-8 font-medium max-w-2xl mx-auto">
-            Speak directly to concrete suppliers for immediate FREE quotes on ready mix concrete, concrete blocks, and precast concrete.
+            Speak directly to us for immediate, FREE quotes. No runaround.
           </p>
           
           <a
