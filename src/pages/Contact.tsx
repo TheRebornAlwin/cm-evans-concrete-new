@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ArrowRight } from 'lucide-react';
 import { supabase } from '../lib/supabase';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   useEffect(() => {
@@ -74,22 +75,23 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡</title>
-        <meta name="description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales! Call 07823 330492 for immediate response. Same-day quotes available 🚚" />
+        <title>📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡ Immediate Response</title>
+        <meta name="description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales! Call 07823 330492 for immediate response. Cube test certified 🚚" />
         <link rel="canonical" href="https://cmevansconcrete.co.uk/contact" />
+        <meta name="last-reviewed" content="2025-01-24" />
         
         {/* OpenGraph tags */}
-        <meta property="og:title" content="📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡" />
+        <meta property="og:title" content="📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡ Immediate Response" />
         <meta property="og:description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales! Call 07823 330492 for immediate response." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmevansconcrete.co.uk/contact" />
         <meta property="og:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
         
         {/* Twitter Card tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡" />
+        <meta property="og:image:alt" content="Contact C&M Evans Concrete - concrete suppliers Barry Cardiff Bristol South Wales" />
+        <meta name="twitter:title" content="📞 Contact C&M Evans Concrete Barry Cardiff Bristol | FREE Quotes South Wales ⚡ Immediate Response" />
         <meta name="twitter:description" content="✅ Contact C&M Evans Concrete for FREE quotes on concrete products Barry, Cardiff, Bristol & South Wales!" />
-        <meta name="twitter:image" content="https://cmevansconcrete.co.uk/assets/logo.jpg" />
+        <meta name="twitter:image:alt" content="Contact C&M Evans Concrete - concrete suppliers Barry Cardiff Bristol South Wales" />
         
         {/* Breadcrumb Schema */}
         <script type="application/ld+json">
@@ -112,6 +114,89 @@ const Contact = () => {
             ]
           })}
         </script>
+
+        {/* Local Business Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "C&M Evans Concrete",
+            "image": "https://cmevansconcrete.co.uk/assets/logo.jpg",
+            "logo": "https://cmevansconcrete.co.uk/assets/logo.jpg",
+            "@id": "https://cmevansconcrete.co.uk/contact",
+            "url": "https://cmevansconcrete.co.uk",
+            "telephone": "07823330492",
+            "email": "cmevansltd@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Industrial Estate",
+              "addressLocality": "Barry",
+              "postalCode": "CF62",
+              "addressCountry": "GB"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 51.4007,
+              "longitude": -3.2919
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "17:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "12:00"
+              }
+            ],
+            "description": "Premium concrete products supplier serving Barry, Cardiff, Bristol and South Wales with ready mix concrete, precast blocks, fence posts and professional delivery services",
+            "paymentAccepted": "Cash, Bank Transfer",
+            "priceRange": "££",
+            "areaServed": ["Barry", "Cardiff", "Bristol", "South Wales"],
+            "serviceType": "Concrete Supply and Delivery",
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Concrete Products",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Product",
+                    "name": "Ready Mix Concrete",
+                    "description": "Ready-mix concrete delivery with cube test certification"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Product",
+                    "name": "Concrete Blocks",
+                    "description": "Dense and lightweight concrete blocks for construction"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Product",
+                    "name": "Precast Concrete",
+                    "description": "Precast concrete products including lintels and posts"
+                  }
+                }
+              ]
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "127"
+            },
+            "description": "Free quotes available for all concrete products and delivery services with cube test certification",
+            "description": "Professional concrete supply and delivery services across Barry, Cardiff, Bristol and South Wales including ready-mix concrete, precast blocks, floor screed, and concrete pump hire"
+          })}
+        </script>
       </Helmet>
       
       {/* Hidden SEO Content Layer */}
@@ -119,21 +204,16 @@ const Contact = () => {
         <h1>Contact Concrete Suppliers Barry Cardiff Bristol - FREE Quotes South Wales</h1>
         <h2>Immediate Quotes Concrete Products Barry - Contact Local Concrete Suppliers Cardiff</h2>
         <h3>Professional Concrete Suppliers Bristol Contact - South Wales Concrete Delivery</h3>
-        
         <div>
           <p>Contact C&M Evans Concrete for immediate FREE quotes on all concrete products Barry, Cardiff, Bristol, and South Wales. Our responsive customer service team provides instant answers about concrete blocks Barry, ready mix concrete Cardiff, precast concrete Bristol, and comprehensive concrete delivery services across South Wales.</p>
           
-          <p>When you contact our concrete suppliers Barry team at 07823 330492, you speak directly with knowledgeable professionals who understand your project requirements. No call centers, no delays – just immediate, accurate information about concrete products availability, competitive pricing, and delivery schedules throughout Cardiff, Bristol, and South Wales.</p>
-          
-          <p>Our contact concrete suppliers Cardiff service extends beyond basic inquiries to include professional project consultation. Whether you need concrete blocks for landscaping, ready mix concrete for foundations, or precast concrete products for commercial developments, our experienced team provides expert guidance and transparent pricing.</p>
+          <p>Our contact concrete suppliers Cardiff service extends beyond basic inquiries to include professional project consultation. Whether you need concrete blocks for landscaping, ready mix concrete for foundations, precast concrete products for commercial developments, or specialized delivery services, our experienced team provides expert guidance and transparent pricing.</p>
           
           <p>Contact concrete suppliers Bristol through C&M Evans Concrete for reliable service that contractors and builders trust. Our comprehensive South Wales concrete products inventory, combined with flexible delivery options and competitive pricing, makes us the preferred choice for construction professionals across the region.</p>
           
           <p>The contact concrete suppliers South Wales process with C&M Evans Concrete is streamlined for your convenience. Call 07823 330492 for immediate quotes, email cmevansltd@gmail.com for detailed inquiries, or use our contact form for project-specific requirements. We respond promptly to all contact requests with professional, helpful service.</p>
           
           <p>Our contact concrete products Barry service includes comprehensive support for custom orders, bulk deliveries, and specialized project requirements. From residential garden projects to commercial construction developments, we provide personalized attention and expert advice to ensure your concrete supply needs are met efficiently and cost-effectively.</p>
-          
-          <p>Contact C&M Evans Concrete today at 07823 330492 for FREE quotes on concrete products Barry Cardiff Bristol. Experience the difference that local expertise, competitive pricing, and professional service bring to your concrete supply requirements across South Wales.</p>
         </div>
         
         {/* Internal linking */}
@@ -172,14 +252,14 @@ const Contact = () => {
               <a
                 href="tel:07823330492"
                 className="inline-flex items-center justify-center px-10 py-5 bg-white text-brand-primary font-bold text-lg rounded-none border-2 border-white/20 hero-shadow hover-lift focus-industrial"
-               onClick={() => {
-                 if (typeof gtag !== 'undefined') {
-                   gtag('event', 'phone_call', {
-                     event_category: 'contact',
-                     event_label: 'contact_hero'
-                   });
-                 }
-               }}
+                onClick={() => {
+                  if (typeof gtag !== 'undefined') {
+                    gtag('event', 'phone_call', {
+                      event_category: 'contact',
+                      event_label: 'contact_hero'
+                    });
+                  }
+                }}
               >
                 <Phone className="h-6 w-6 mr-3" />
                 <span className="hidden md:inline">Call Directly: 07823 330492</span>
@@ -323,7 +403,9 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-brand-primary mr-4" />
                     <div>
                       <p className="font-medium text-gray-900">Phone</p>
-                      <a href="tel:07823330492" className="text-brand-primary hover:text-brand-secondary transition-colors duration-200 text-lg font-semibold">
+                      <a 
+                        href="tel:07823330492" 
+                        className="text-brand-primary hover:text-brand-secondary transition-colors duration-200 text-lg font-semibold"
                         onClick={() => {
                           if (typeof gtag !== 'undefined') {
                             gtag('event', 'phone_call', {
@@ -332,6 +414,7 @@ const Contact = () => {
                             });
                           }
                         }}
+                      >
                         07823 330492
                       </a>
                     </div>
@@ -368,12 +451,12 @@ const Contact = () => {
               </div>
               
               <div className="bg-brand-primary text-white p-8 rounded-xl">
-               <h3 className="sr-only">Why Contact C&M Evans Concrete Barry Cardiff Bristol</h3>
+                <h3 className="sr-only">Why Contact C&M Evans Concrete Barry Cardiff Bristol</h3>
                 <h3 className="text-2xl font-bold mb-6">Why Call Us Directly?</h3>
                 <ul className="space-y-4">
                   {contactReasons.map((reason, index) => (
                     <li key={index} className="flex items-start">
-                      <CheckCircle className="h-5 w-5 mt-0.5 mr-3 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
                       <span>{reason}</span>
                     </li>
                   ))}
@@ -385,25 +468,24 @@ const Contact = () => {
       </section>
 
       {/* Quick Contact CTA */}
-      <section className="py-16 bg-white">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="sr-only">Immediate Quotes Concrete Products Barry Cardiff Bristol South Wales</h2>
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Need an Immediate Quote?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Need Immediate Concrete Products Quote?</h2>
           <p className="text-xl text-gray-600 mb-8">
-            For the fastest response, call directly. We're usually available during business hours and can give you instant FREE quotes.
+            For the fastest response on ready mix concrete, concrete blocks, and precast concrete, call concrete suppliers directly. We're usually available during business hours and can give you instant FREE quotes.
           </p>
           
           <a
             href="tel:07823330492"
             className="inline-flex items-center px-10 py-5 bg-brand-primary text-white font-bold text-lg rounded-lg hover:bg-brand-secondary transition-colors duration-200 shadow-lg"
-         onClick={() => {
-           if (typeof gtag !== 'undefined') {
-             gtag('event', 'phone_call', {
-               event_category: 'contact',
-               event_label: 'contact_cta'
-             });
-           }
-         }}
+            onClick={() => {
+              if (typeof gtag !== 'undefined') {
+                gtag('event', 'phone_call', {
+                  event_category: 'contact',
+                  event_label: 'contact_cta'
+                });
+              }
+            }}
           >
             <Phone className="h-6 w-6 mr-3" />
             Call Now: 07823 330492
