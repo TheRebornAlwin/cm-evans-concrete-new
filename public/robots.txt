@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cmevansconcrete.co.uk/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all search engines to access the site
+Allow: /assets/
+Allow: /products
+Allow: /about
+Allow: /contact
+
+# Disallow any admin or private areas
+# Disallow: /admin/
+
+# Additional crawling instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

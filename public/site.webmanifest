@@ -1,0 +1,21 @@
+{
+  "name": "C&M Evans Concrete",
+  "short_name": "C&M Evans",
+  "description": "Quality Concrete Supplies Barry & Cardiff",
+  "icons": [
+    {
+      "src": "/assets/favicon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/favicon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "theme_color": "#180E4C",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
